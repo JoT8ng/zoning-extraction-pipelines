@@ -17,9 +17,9 @@ This pipeline explores extracting the zoning information by first extracting and
 ## How it Works
 ![Diagram](images/BylawExtractLogicDiagram.png)
 
-The first part of this code calls the [PDF Text Extraction and Parsing Regex Pipeline](Link path) which handles PDF text extraction and parsing. Refer to the documentation and Jupyter Notebook for that pipeline for further explanation of how it works.
+The first part of this code calls the [PDF Text Extraction and Parsing Regex Pipeline](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/common-pdf-parsing-regex/) which handles PDF text extraction and parsing. Refer to the documentation and Jupyter Notebook for that pipeline for further explanation of how it works.
 
-The title/zoning category and its section text, extracted by the [PDF Text Extraction and Parsing Regex Pipeline](Link path), is placed into a prompt that is used to make a query to the LLM (Claude 3.5 Sonnet api via Amazon Bedrock).
+The title/zoning category and its section text, extracted by the [PDF Text Extraction and Parsing Regex Pipeline](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/common-pdf-parsing-regex/), is placed into a prompt that is used to make a query to the LLM (Claude 3.5 Sonnet api via Amazon Bedrock).
 
 The LLM's output is stored in memory into the dictionary and also output as text files in markdown syntax for users to view. The output is then processed and joined with geospatial zoning datasets and output as a CSV.
 

@@ -10,23 +10,23 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 This repository contains multiple approaches or pipelines to extract zoning data/information.
 
 ### Pipelines Implemented
-1. PDF Text Extraction and Parsing Regex Pipeline (folder name: "common-pdf-parsing-regex)
+1. **PDF Text Extraction and Parsing Regex Pipeline** (folder name: "common-pdf-parsing-regex)
 
     This pipeline explores extracting the zoning information by first extracting and parsing the text as markdown from the by-law PDFs, then sending a query to the LLM API with the extracted text. The LLM responds with the zoning information and the response is processed and exported into CSV format and joined with a zoning GeoJSON dataset.
 
-    [Link to README.md](Link path)
+    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/common-pdf-parsing-regex/src/README.md)
 
     [Link to Notebook](Link path)
 
-2. Claude LLM API Pipeline (folder name: "llm-api-pipeline")
+2. **Claude LLM API Pipeline** (folder name: "llm-api-pipeline")
 
     This pipeline extracts the text from the zoning by-law and parses it so that it can be used in other pipelines. Can also be used on its own to split up zoning by-law texts to make them easier to read and search for information.
 
-    [Link to README.md](Link path)
+    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm-api-pipeline/src/README.md)
 
     [Link to Notebook](Link path)
 
-3. Comparing DistilBERT and LegalBERT Zoning Text Classification
+3. **Comparing DistilBERT and LegalBERT Zoning Text Classification**
 
     Work in progress
 
