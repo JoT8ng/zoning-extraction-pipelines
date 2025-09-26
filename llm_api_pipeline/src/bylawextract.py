@@ -1,9 +1,9 @@
 import csv
 import pathlib
 import os
-from llmapi import LLMAPI
+from .llmapi import LLMAPI
 from datetime import datetime
-from common_pdf_parsing.src.parsing import Parsing
+from common_pdf_parsing.parsing import Parsing
 import geopandas as gpd
 import pandas as pd
 from thefuzz import process
