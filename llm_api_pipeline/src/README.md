@@ -28,11 +28,14 @@ Required project/repository folder structure in order for the script to run.
 ```
 llm_api_pipeline
 |   README.md
-|   bylawextract.py
-|   llmapi.py
 |   requirements.txt
-|   example_zoningbylaw_text.pdf
-|   example_zoning.geojson
+|   |___ src/
+    |    |___ bylawextract.py
+    |    |___ llmapi.py
+    |    |___ parsing.py
+    |    |___ example_zoningbylaw_text.pdf
+    |    |___ example_zoning.geojson
+|   |___ notebooks/
 ```
 
 ## Dependancies
@@ -61,7 +64,7 @@ or create requirements.txt file
 ```
 pip freeze > requirements.txt
 ```
-Run the code
+Run the code at the root repository
 ```
 python bylawextract.py
 ```

@@ -1,9 +1,9 @@
 import csv
 import pathlib
 import os
-from .llmapi import LLMAPI
+from llmapi import LLMAPI
 from datetime import datetime
-from common_pdf_parsing.parsing import Parsing
+from parsing import Parsing
 import geopandas as gpd
 import pandas as pd
 from thefuzz import process
@@ -95,6 +95,8 @@ else:
     print(f"PDF is already split into zoning category sections. Sending directly to LLM")
 
     zoning_categories = PARSING.onezoningsection_extractext(text, zoning_categories)
+
+sys.exit()
 
 # PART 4
 # Extract data from each zoning category section by querying LLM & write results to CSV

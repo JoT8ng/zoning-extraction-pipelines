@@ -40,13 +40,18 @@ zoning-extraction-pipelines
 |   .gitignore
 |
 |___common_pdf_parsing/
-|   |___ src/
-    |    |___ README.md
+|   |___ README.md
+|   |___ parsing.py
 |   |___ notebooks/
 |   |___ requirements.txt
 |___llm_api_pipeline/
 |   |___ src/
     |    |___ README.md
+    |    |___ bylawextract.py
+    |    |___ llmapi.py
+    |    |___ parsing.py
+    |    |___ example_zoningbylaw_text.pdf
+    |    |___ example_zoning.geojson
 |   |___ notebooks/
 |   |___ requirements.txt
 ```
