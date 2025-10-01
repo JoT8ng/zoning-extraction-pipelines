@@ -96,8 +96,6 @@ else:
 
     zoning_categories = PARSING.onezoningsection_extractext(text, zoning_categories)
 
-sys.exit()
-
 # PART 4
 # Extract data from each zoning category section by querying LLM & write results to CSV
 LLM_responses = {}

@@ -14,7 +14,7 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     These functions extract text from the zoning by-law and parses it so that it can be used in other pipelines. Can also be used on its own to split up zoning by-law texts to make them easier to read and search for information.
 
-    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/common-pdf-parsing-regex/src/README.md)
+    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/tree/main/common_pdf_parsing)
 
     [Link to Notebook](Link path)
 
@@ -22,7 +22,7 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     This pipeline explores extracting the zoning information by first extracting and parsing the text as markdown from the by-law PDFs, then sending a query to the LLM API with the extracted text. The LLM responds with the zoning information and the response is processed and exported into CSV format and joined with a zoning GeoJSON dataset.
 
-    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm-api-pipeline/src/README.md)
+    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
     [Link to Notebook](Link path)
 
@@ -52,7 +52,7 @@ zoning-extraction-pipelines
     |    |___ parsing.py
     |    |___ example_zoningbylaw_text.pdf
     |    |___ example_zoning.geojson
-|   |___ notebooks/
+    |    |___ llm_api_pipeline_demo.ipynb
 |   |___ requirements.txt
 ```
 
