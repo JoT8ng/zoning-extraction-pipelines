@@ -11,10 +11,10 @@ import sys
 import json
 
 # Global variables for user configuration
-city_name = "Burnaby"
-geoJsonIn = "Burnaby_Zoning.geojson"
-zoningpdf_path = "Example_Burnaby_R1Small-Scale-Multi-Unit-Housing-District.pdf"
-zoneField = "ZONECODE"
+city_name = "Burnaby" # Change accordingly
+geoJsonIn = "Burnaby_Zoning.geojson" # Change the filename accordingly
+zoningpdf_path = "Example_Burnaby_R1Small-Scale-Multi-Unit-Housing-District.pdf" # Change the filename accordingly
+zoneField = "ZONECODE" # Change the fieldname from your geoJSON accordingly
 csvOut = "Zoning_Regulations_Out.csv"
 now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")

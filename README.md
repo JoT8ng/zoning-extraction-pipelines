@@ -24,16 +24,14 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
-    [Link to Notebook](Link path)
-
 3. **Comparing DistilBERT and LegalBERT Zoning Text Classification**
 
     Work in progress
 
 ## Folder Structure
-Each pipeline has its own project folder. For example: the pipeline to extract unstructured text from zoning PDFs and parse them is in the folder called "common-pdf-parsing-regex". 
+Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 
 
-Within each pipeline's project folder is the source code in a folder called "src" with a README.md file. The folder called "notebooks" contains a Jupyter Notebook for clear explanations, a step by step walkthrough of the code, and diagrams. 
+Within each project folder is the source code with a README.md file. Where useful, the folder may contain a Jupyter Notebook for clear explanations, a step by step walkthrough of the code, and diagrams. 
 ```
 zoning-extraction-pipelines
 |   README.md
@@ -42,7 +40,7 @@ zoning-extraction-pipelines
 |___common_pdf_parsing/
 |   |___ README.md
 |   |___ parsing.py
-|   |___ notebooks/
+|   |___ pdf_parsing_demo.ipynb
 |   |___ requirements.txt
 |___llm_api_pipeline/
 |   |___ src/
@@ -52,7 +50,6 @@ zoning-extraction-pipelines
     |    |___ parsing.py
     |    |___ example_zoningbylaw_text.pdf
     |    |___ example_zoning.geojson
-    |    |___ llm_api_pipeline_demo.ipynb
 |   |___ requirements.txt
 ```
 

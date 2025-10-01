@@ -1,6 +1,5 @@
 import pymupdf4llm
 import re
-import os
 
 class Parsing:
 
@@ -67,30 +66,11 @@ class Parsing:
                 if section_content:
                     zoning_categories[title]["section"] = section_content
 
-        # Print zoning sections with their titles and content for debugging
-        for title, content in zoning_categories.items():
-            print(f"Title: {title}")
-            print(f"Zone Field: {content["zoneField"]}")
-            print(f"Status: {content["status"]}")
-            print(f"Content: {content["section"][:300]}...")  # Print the first 300 characters of the content
-            print("\n---\n")
-
-        # Save zoning sections into separate text files for logging
-        for title, content in zoning_categories.items():
-            if content["status"] == "match":
-                # Create a sanitized filename from the title
-                filename = re.sub(r'[<>:"/\\|?*\n]', '_', title)
-                filename = filename[:150] # If title is long truncate title
-                filepath = os.path.join("sections-out", filename)
-                
-                with open(filepath, "w", encoding="utf-8") as f:
-                    f.write(f"Title: {title}\n\n")
-                    f.write(content["section"])
-
         return zoning_categories
     
     def onezoningsection_extractext(self, text, zoning_categories):
         # Function to extract text and zoning category title if zoning bylaw pdf is already split into zoning category sections
+        # This function is specific to the llm_api_pipeline bylawextract.py
 
         # Regex pattern to extract zoning categories
         zoning_regex_b = r"\*\*([^*]+)\*\*" # Use this pattern for titles in "**bold**"
