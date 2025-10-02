@@ -19,6 +19,7 @@ When first working with this repository it's a good idea to empty all the text f
 common_pdf_parsing
 |   README.md
 |   parsing.py
+|   pdf_parsing_demo.ipynb
 |   requirements.txt
 |
 |___llm-out

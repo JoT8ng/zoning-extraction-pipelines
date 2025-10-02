@@ -16,7 +16,7 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/tree/main/common_pdf_parsing)
 
-    [Link to Notebook](Link path)
+    [Link to Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/common_pdf_parsing/pdf_parsing_demo.ipynb)
 
 2. **Claude LLM API Pipeline** (folder name: "llm_api_pipeline")
 
