@@ -12,10 +12,10 @@ import json
 
 # Global variables for user configuration
 city_name = "Burnaby" # Change accordingly
-geoJsonIn = "Burnaby_Zoning.geojson" # Change the filename accordingly
-zoningpdf_path = "Example_Burnaby_R1Small-Scale-Multi-Unit-Housing-District.pdf" # Change the filename accordingly
-zoneField = "ZONECODE" # Change the fieldname from your geoJSON accordingly
-csvOut = "Zoning_Regulations_Out.csv"
+geoJsonIn = "Burnaby_Zoning.geojson" # Change the filename accordingly. Existing zoning geoJSON geospatial dataset required.
+zoningpdf_path = "Example_Burnaby_R1Small-Scale-Multi-Unit-Housing-District.pdf" # Change the filename accordingly. Existing Zoning by-law PDF required.
+zoneField = "ZONECODE" # Change the fieldname from your geoJSON accordingly. This field name contains all the zoning category titles
+csvOut = "Zoning_Regulations_Out.csv" # Output CSV name
 now = datetime.now()
 timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
 SPLIT = False # Change this accordingly. False if zoning by-law PDF is not already split into zoning category sections

@@ -14,6 +14,11 @@ This repository contains the version of the pipeline I maintain independently.
 
 This pipeline explores extracting the zoning information by first extracting and parsing the text as markdown from the by-law PDFs, then sending a query to the LLM API with the extracted text. The LLM responds with the zoning information and the response is processed and exported into CSV format and joined with a zoning GeoJSON dataset.
 
+### What are Zoning By-laws and why do they matter?
+Zoning By-laws contain important information about land use, building height, density, and other development regulations. They are important documents that inform urban planning and development decisions in cities.
+
+They are often stored as long, unstructured PDF legal documents and it's difficult to find information within them. Zoning information is also spatial and tied to geospatial datasets. It would be great if the zoning information in the by-laws could be extracted in an efficient and automated way and joined with geospatial datasets.
+
 ## How it Works
 ![Diagram](images/BylawExtractLogicDiagram.png)
 
@@ -29,7 +34,21 @@ This pipeline requires the user to review all the LLM outputs in the CSV and geo
 
 ## Example Inputs and Outputs
 
-text here
+Example geoJSON attribute table with zoning category field name.
+
+![Geojson In](images/geojsonin.jpg)
+
+Example zoning by-law text
+
+![Zoning Bylaw](images/BylawScreenshot.jpg)
+
+Example CSV output
+
+![CSV Out](images/csvout.jpg)
+
+Example geoJSON output
+
+![Geojson Out](images/geojsonout.jpg)
 
 ## Closing Thoughts
 
@@ -45,6 +64,8 @@ However, all text generating and question answering LLMs, like Anthropic Claude,
 
 ## Folder Structure
 Required project/repository folder structure in order for the script to run.
+
+This pipeline script requires users to have an existing zoning by-law PDF and zoning geospatial geoJSON dataset to run.
 ```
 llm_api_pipeline
 |   README.md
