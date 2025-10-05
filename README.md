@@ -24,7 +24,7 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
-3. **Comparing DistilBERT and LegalBERT Zoning Text Classification**
+3. **Zero shot NER classification experiments - testing and comparing DistilBERT and LegalBERT**
 
     Work in progress
 

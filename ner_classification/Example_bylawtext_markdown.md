@@ -1,0 +1,487 @@
+## SCHEDULE NUMBER 1
+
+**100.** **RESIDENTIAL DISTRICTS (R)**
+
+Subject to all other provisions of this Bylaw, on any lot, in any district designated as an R District,
+the regulations within the following Sections shall apply:
+
+**101.** **Small-Scale Multi-Unit Housing District (R1)**
+
+(B/L No. 14661-24-06-10)
+
+
+-----
+
+# 101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)
+
+### 101.1 Intent
+
+This District provides for the use and development of primarily ground-oriented residential dwellings up
+to a maximum of 6 dwelling units on a lot.
+
+### 101.2 Permitted Uses
+
+**Principal Use** **Use-Specific Regulations**
+
+Small-Scale Multi-Unit Housing       
+Rowhouse Dwellings 101.5.2
+
+Boarding, Lodging, or Rooming House 101.5.3
+
+Group Home      
+Supportive Housing (Category A) 101.5.4
+
+Child Care Facilities 101.5.6
+
+**Accessory Use** **Use-Specific Regulations**
+
+Boarding Use (up to 2 boarders)       
+Home Occupations 6.8, 6.8A
+
+Urban Agriculture 6.30
+
+Accessory Buildings, Structures, and Uses 101.5.5, 6.6
+
+(B/L No. 14694-24-11-04)
+
+### 101.3 Subdivision Regulations
+
+**Dwelling Type**
+**Rowhouse[ .1]** **Small-Scale Multi-Unit**
+
+Minimum Lot Width[ .2]
+
+5 m, except 6.2 m for end unit
+Interior Lot 10 m
+
+lots
+
+Corner Lot - Street 8 m 10 m
+
+Corner Lot - Lane 6.2 m 10 m
+
+Lot Area[ .3]
+
+Minimum Lot Area       - 281 m[2]
+
+Maximum Lot Area 280 m[2]       
+.1 At the time of registration of the subdivision plan to create two or more rowhouse lots, the
+registration of a Section 219 Covenant will be required to ensure that all adjoining rowhouse
+dwellings will be constructed at the same time.
+
+|Permitted Uses|Col2|
+|---|---|
+|Principal Use|Use-Specific Regulations|
+|Small-Scale Multi-Unit Housing|-|
+|Rowhouse Dwellings|101.5.2|
+|Boarding, Lodging, or Rooming House|101.5.3|
+|Group Home|-|
+|Supportive Housing (Category A)|101.5.4|
+|Child Care Facilities|101.5.6|
+|Accessory Use|Use-Specific Regulations|
+|Boarding Use (up to 2 boarders)|-|
+|Home Occupations|6.8, 6.8A|
+|Urban Agriculture|6.30|
+|Accessory Buildings, Structures, and Uses|101.5.5, 6.6|
+
+|Col1|Dwelling Type|Col3|
+|---|---|---|
+||Rowhouse .1|Small-Scale Multi-Unit|
+|Minimum Lot Width .2|||
+|Interior Lot|5 m, except 6.2 m for end unit lots|10 m|
+|Corner Lot - Street|8 m|10 m|
+|Corner Lot - Lane|6.2 m|10 m|
+|Lot Area .3|||
+|Minimum Lot Area|-|281 m2|
+|Maximum Lot Area|280 m2|-|
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 1
+
+
+-----
+
+.2 Panhandle lots or other irregular lot configurations are not permitted except in accordance with
+Section 101.6.4 or where constrained by restrictive site conditions as determined by the
+Approving Officer.
+
+.3 Rowhouse lots may exceed 280 m2 subject to Section 101.4 footnote .1.
+
+### 101.4 Development Regulations
+
+**Dwelling Type**
+**Rowhouse** **Small-Scale Multi-Unit**
+
+Permitted Dwelling Units **5 to 6 Units**
+
+Within Frequent
+
+(including secondary **1 to 3 Units** **1 to 3 Units** **4 Units**
+
+Transit Network
+
+suites) Area
+
+Minimum Lot Area       -       - 281 m[2] 281 m[2]
+Maximum Lot Area[ .1] 280 m[2]        -        -        Maximum Lot Coverage
+
+All Buildings 55% 40% 45% 50%
+
+Impervious Surfaces 70%
+Maximum Height
+
+Principal Building 12.0 m | 4 storeys
+
+Accessory Buildings 4.0 m | 1 storey
+Minimum Lot Line Setbacks for All Buildings[ .2 .3]
+
+Street Yard 3.0 m
+
+Rear Yard without Lane 3.0 m, except 1.2 m for accessory buildings
+
+Rear or Side Yard with
+1.2 m
+Lane
+
+Interior Side Yard 0.0 m, except 1.2
+1.2 m 1.2 m 1.2 m
+m for end unit lots
+
+Minimum Separation of Buildings on the Same Lot[ .4 .5 ]
+
+Between Front Principals        - 2.4 m 2.4 m 2.4 m
+
+Between Rear Principals        - 2.4 m 2.4 m 2.4 m
+
+Between Front & Rear
+6.0 m
+Principals
+
+Between All Other
+2.4 m
+Buildings
+
+.1 Maximum lot area for rowhouse dwellings may exceed 280 m2, subject to registration of a
+Section 219 Covenant prohibiting the construction of more than 3 dwelling units on the lot.
+
+.2 See Sections 101.6.1 and 6.12 for permitted projections into required yards and see Section 6.13
+for additional setbacks that may be required for vision clearance areas.
+
+.3 Interior side yard setbacks are not required for rowhouse dwelling units on a lot line
+between two adjoining rowhouse dwellings with a shared party wall. For an end unit of a
+rowhouse development, the interior side yard setback is 1.2 m.
+
+.4 Accessory buildings are not permitted within the minimum separations between principal
+buildings – see Section 101.6.1 for permitted projections into minimum separations.
+
+|Col1|Dwelling Type|Col3|Col4|Col5|
+|---|---|---|---|---|
+||Rowhouse|Small-Scale Multi-Unit|||
+|Permitted Dwelling Units (including secondary suites)|1 to 3 Units|1 to 3 Units|4 Units|5 to 6 Units Within Frequent Transit Network Area|
+|Minimum Lot Area|-|-|281 m2|281 m2|
+|Maximum Lot Area .1|280 m2|-|-|-|
+|Maximum Lot Coverage|||||
+|All Buildings|55%|40%|45%|50%|
+|Impervious Surfaces|70%||||
+|Maximum Height|||||
+|Principal Building|12.0 m | 4 storeys||||
+|Accessory Buildings|4.0 m | 1 storey||||
+|Minimum Lot Line Setbacks for All Buildings .2 .3|||||
+|Street Yard|3.0 m||||
+|Rear Yard without Lane|3.0 m, except 1.2 m for accessory buildings||||
+|Rear or Side Yard with Lane|1.2 m||||
+|Interior Side Yard|0.0 m, except 1.2 m for end unit lots|1.2 m|1.2 m|1.2 m|
+|Minimum Separation of Buildings on the Same Lot .4 .5|||||
+|Between Front Principals|-|2.4 m|2.4 m|2.4 m|
+|Between Rear Principals|-|2.4 m|2.4 m|2.4 m|
+|Between Front & Rear Principals|6.0 m||||
+|Between All Other Buildings|2.4 m||||
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 2
+
+
+-----
+
+.5 Any principal building located between a front and rear principal must have a minimum 6.0 m
+separation from each of the front and rear principals, or, in the case of through lots, from each
+opposing front principal, and a minimum 2.4 m separation from any other principals between it
+and a side lot line.
+
+### Diagram: Separation between buildings Diagram: Separation between detached 
+ units on a wider lot
+
+ Diagram: Siting on a through lot Diagram: Siting on rowhouse lots 
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 3
+
+
+-----
+
+### 101.5 Use-Specific Regulations
+
+**101.5.1** **All Dwelling Units**
+
+(1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot
+as follows:
+
+**Total Dwelling Units on a Lot**
+**1 to 3 Units** **4 to 6 Units**
+Minimum 3+ Bedroom
+1 Unit 2 Units
+Units:
+
+(2) At least one dwelling unit on a lot must have the main entrance oriented to an abutting
+street or, in the case of a through lot with multiple principal buildings and site access from
+both frontages, at least one dwelling unit per street frontage.
+
+**101.5.2** **Rowhouse Dwellings**
+
+(1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian
+walkway spaced every 100 m or less from a street, lane, or walkway that intersects the
+fronting street and that:
+
+(a) links the fronting street with the parallel lane, street, or trail network at the rear of
+the lot;
+
+(b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and
+
+(c) is subject to a statutory right of way registered in favour of the City.
+
+**101.5.3** **Boarding, Lodging, or Rooming Houses**
+
+(1) Boarding, lodging or rooming houses are permitted for not more than 5 persons, when
+situated in a single family dwelling on a lot with an area of not less than 560 m[2], subject to
+the condition that it is included as part of a comprehensive development plan to which the
+provisions of the Comprehensive Development District apply.
+
+**101.5.4** **Supportive Housing**
+
+(1) Category A Supportive Housing facilities are permitted on a lot as the only principal use,
+subject to the following conditions:
+
+(a) each living unit shall have a minimum floor area of 27 m[2];
+
+(b) it meets the development regulations under Section 101.4 for small-scale multi-unit
+lots with 1 to 3 units; and
+
+(c) the use shall be included as part of a comprehensive development plan to which
+the provisions of the Comprehensive Development District apply.
+
+**101.5.5** **Accessory Buildings, Structures, and Uses**
+
+(1) Parking:
+
+(a) Parking shall be provided in an attached or detached garage, carport or outdoor
+parking pad at the rear of the lot when accessible from an abutting lane or street.
+Where there is no direct access to the rear of the lot or the Director Engineering is
+satisfied that access to the rear is not feasible because of an extreme grade,
+parking may be provided elsewhere on the lot.
+
+|Col1|Total Dwelling Units on a Lot|Col3|
+|---|---|---|
+||1 to 3 Units|4 to 6 Units|
+|Minimum 3+ Bedroom Units:|1 Unit|2 Units|
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 4
+
+
+-----
+
+(b) A garage or carport may be constructed below grade, provided that no part of such
+structure shall extend more than 1.2 m above the surface of the surrounding
+ground at any point other than the driveway, nor be less than 1.2 m from a lot line.
+
+(2) An accessory structure not being a building, excluding a fence or a retaining wall, located
+outside of a required yard, shall not exceed 4.6 m in height.
+
+**101.5.6** **Child Care Facilities**
+
+(1) A child care facility in the R1 District must:
+
+(a) be limited to a maximum of 25 children;
+
+(b) be located on a corner lot;
+
+(c) comply with the development regulations under section 101.4 for 1 to 3 small-scale
+multi-unit dwelling units on a lot;
+
+(d) be located on a lot that does not contain a dwelling unit or any other principal use;
+and
+
+(e) comply with all other applicable regulations under this Bylaw.
+
+(B/L No. 14694-24-11-04)
+
+### 101.6 General Regulations
+
+**101.6.1** **Projections**
+
+(1) The following features may project into the required minimum separation between
+buildings on the same lot:
+
+(a) steps and stairs;
+
+(b) ornamental features, such as arbors, trellises, fish ponds, flag poles, or similar
+landscape features;
+
+(c) terraces, decks, or other similar surfaces that are 1.0 m or less above grade;
+
+(d) balconies, covered decks, uncovered decks, canopies, sunshades, or other similar
+features, including supporting structures, that are greater than 1.0 m above grade
+up to a maximum of 25% of the width of a required separation;
+
+(e) belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar
+features up to the lesser of 0.9 m or 25% of the width of a required separation;
+
+(f) sunken access areas and window wells as per Section 6.9;
+
+(g) outdoor appliances; and
+
+(h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a required
+separation.
+
+(B/L No. 14694-24-11-04)
+
+(2) Permitted projections into required yards are subject to Section 6.12, except that in the R1
+District projections into required rear or side yards are limited to a maximum of 0.5 m
+where the rear or side yard abuts a lane to provide adequate fire truck clearance.
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 5
+
+
+-----
+
+**101.6.2** **Outdoor Areas**
+
+(1) An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m[2] must be
+provided for each primary dwelling unit for its exclusive use and be directly accessible from
+the primary dwelling unit it serves.
+
+**101.6.3** **Access and Fire Safety**
+
+(1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an
+automatic sprinkler system.
+
+(2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that:
+
+(a) provides direct pedestrian access from the dwelling unit entrance to a lot line
+abutting a street, or abutting a constructed lane where direct access to a street is
+not feasible; and
+
+(b) is clear of any projections or obstructions to a minimum of 2.5 m in height.
+
+**101.6.4** **Heritage**
+
+(1) Notwithstanding the R1 District regulations otherwise stated in this Bylaw, subject to
+approval of the Director of Planning and Development and the registration of a Section 219
+Covenant to prohibit any works on the lot which would destroy, or irreversibly alter or
+damage the heritage resource and its heritage character, some or all of the following
+regulations may apply to lots in the R1 District on the Community Heritage Register:
+
+(a) panhandle lots and other irregularly shaped lots may be permitted subject to the
+following:
+
+(i) lots with lane access shall have a minimum panhandle width of 1 m that is
+clear to a height of 2.5 m; and
+
+(ii) lots without lane access shall have a minimum panhandle width of 4.5 m
+that is clear to a height of 2.5 m;
+
+(b) maximum lot coverage as set out in Section 101.4 may be increased to up to 60%;
+
+(c) all original architectural appurtenances, such as chimneys, railings, vents,
+decorative features, or similar, may be excluded from the maximum permitted
+height of a principal building;
+
+(d) lot line setbacks for street yards may meet a minimum of 2.0 m;
+
+(e) the minimum separation between buildings on the same lot as required under
+Section 101.4 may be reduced;
+
+(f) Section 101.5.1 does not apply; and
+
+(g) Parking:
+
+(i) off-street vehicular parking spaces are not required;
+
+(ii) retention and continued use of driveways that do not otherwise conform with
+the requirements of this Bylaw may be permitted; and
+
+(iii) parking may be provided within the required yards, and any existing parking
+areas on the lot that do not conform with the requirements of this Bylaw may
+continue to be used.
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 6
+
+
+-----
+
+### 101.7 Measurements and Calculations
+
+**101.7.1** **Height**
+
+(1) The height of a principal or accessory building shall be measured from the lower of the
+average natural grade or finished grade of all corners of the building to the midpoint of a
+sloped roof or the highest point of a flat roof. The midpoint of a sloped roof is considered
+
+to be one half of the vertical distance of a sloped roof structure measured from the top
+plate of the uppermost storey to the highest point of the roof.
+
+### Diagram: Height Measurement
+
+(B/L No. 14694-24-11-04)
+
+(2) The following types of structures or structural parts shall be excluded from the maximum
+permitted building height for principal buildings:
+
+(a) Rooftop stairway enclosures, including overhangs, up to 2.5 m in height, provided
+the area they contain is exclusively for rooftop access purposes; and
+
+(b) Rooftop parapets, railings, privacy screening, or similar features up to 1.1 m in
+height.
+
+(3) The height of a detached garage or carport shall be measured from the finished grade at
+the point used for vehicular access.
+
+### 101.8 Additional Regulations
+
+(1) Additional zoning regulations apply, including, but not limited to, those found in:
+
+(a) Section 6: Supplementary Regulations
+
+(b) Schedule 8: Off-Street Parking
+
+(B/L No. 14661-24-06-10)
+
+
+City of Burnaby – Zoning Bylaw
+
+
+Page 7
+
+
+-----
+
