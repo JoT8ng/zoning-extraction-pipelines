@@ -24,9 +24,11 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
-3. **Zero shot NER classification experiments - testing and comparing DistilBERT and LegalBERT**
+3. **Zero shot classification experiments - testing and comparing DistilBERT and LEGAL-BERT**
 
-    Work in progress
+    This experiement aims to test out and evaluate the performance of DistilBERT and LEGAL-BERT question answering models to extract information from zoning by-laws.
+
+    [Link to notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/ner_classification/ner_classification_experiments.ipynb)
 
 ## Folder Structure
 Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 

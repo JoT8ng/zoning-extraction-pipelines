@@ -1,4 +1,4 @@
-# Zero shot NER classification experiments - testing and comparing different LLM models
+# Zero shot classification experiments - testing and comparing DistilBERT and LEGAL-BERT
 
 
 ## Getting Started
