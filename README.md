@@ -24,7 +24,7 @@ This repository contains multiple approaches or pipelines to extract zoning data
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
-3. **Zero shot classification experiments - testing and comparing DistilBERT and LEGAL-BERT**
+3. **Zero shot QA experiments - DistilBERT vs LEGAL-BERT**
 
     This experiement aims to test out and evaluate the performance of DistilBERT and LEGAL-BERT question answering models to extract information from zoning by-laws.
 
