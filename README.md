@@ -29,7 +29,7 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
     This experiement aims to test out and evaluate the performance of DistilBERT and LEGAL-BERT question answering models to extract information from zoning by-laws.
 
-    [Link to notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/ner_classification/ner_classification_experiments.ipynb)
+    [Link to notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/README.md)
 
 ## Folder Structure
 Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 
