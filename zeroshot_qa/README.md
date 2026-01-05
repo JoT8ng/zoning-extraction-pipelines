@@ -4,7 +4,7 @@ Zoning By-laws contain important information about land use, building height, de
 
 They are often stored as long, unstructured PDF legal documents and it's difficult to find information within them. Zoning information is also spatial and tied to geospatial datasets. It would be great if the zoning information in the by-laws could be extracted in an efficient and automated way and joined with geospatial datasets.
 
-**This experiement aims to test out and evaluate the performance of DistilBERT and LEGAL-BERT question answering models to extract information from zoning by-laws.**
+**This experiement aims to test out and evaluate the performance of DistilBERT, LEGAL-BERT, and RoBERTa question answering models to extract information from zoning by-laws.**
 
 This project is exploratory and aims to experiment with different transformer models and learn how to use the Hugging Face Transformers Library.
 
@@ -16,8 +16,11 @@ This repository contains extracted example zoning by-law text snippets in markdo
 zeroshot_qa/
 |   README.md
 |   zeroshot_qa_experiments.ipynb
+|   zeroshot_qa_experiment2.ipynb
 |   Example_bylawtext_markdown.md
 |   R1Small-Scale-Multi-Unit-Housing-District.txt
+|   ZoningDatasets.xlsx
+|   ZeroshotDataset2.csv
 |   requirements.txt
 ```
 
