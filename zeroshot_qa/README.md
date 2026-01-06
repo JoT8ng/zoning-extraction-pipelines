@@ -1,10 +1,10 @@
-# Zero shot QA experiments - DistilBERT vs LEGAL-BERT
+# Zero shot QA experiments
 
 Zoning By-laws contain important information about land use, building height, density, and other development regulations. They are important documents that inform urban planning and development decisions in cities.
 
 They are often stored as long, unstructured PDF legal documents and it's difficult to find information within them. Zoning information is also spatial and tied to geospatial datasets. It would be great if the zoning information in the by-laws could be extracted in an efficient and automated way and joined with geospatial datasets.
 
-**This experiement aims to test out and evaluate the performance of DistilBERT, LEGAL-BERT, and RoBERTa question answering models to extract information from zoning by-laws.**
+**These experiements aims to test out and evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa question answering models to extract information from zoning by-laws.**
 
 This project is exploratory and aims to experiment with different transformer models and learn how to use the Hugging Face Transformers Library.
 

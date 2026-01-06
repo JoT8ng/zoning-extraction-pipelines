@@ -1,6 +1,6 @@
 # Zoning Extraction Pipelines
 
-This repository contains multiple approaches or pipelines to extract zoning data/information from unstructured text by-law PDFS. The aim for these tools is to automate zoning data extraction for GIS workflows.
+**This repository contains multiple approaches and experiments to extract zoning data/information from unstructured text by-law PDFS. The aim for these tools is to automate zoning data extraction for GIS workflows. The projects and experiments in this repository alo aim to evaluate the accuracy of different AI models and architectures in extracting information from zoning by-laws with data context lengths matched to model capabilities.**
 
 The projects in this repository are exploratory, investigative, and aims to learn different Python libraries, workflows, and to use the Hugging Face Transformers Library.
 
@@ -8,6 +8,16 @@ The projects in this repository are exploratory, investigative, and aims to lear
 Zoning By-laws contain important information about land use, building height, density, and other development regulations. They are important documents that inform urban planning and development decisions in cities.
 
 They are often stored as long, unstructured PDF legal documents and it's difficult to find information within them. Zoning information is also spatial and tied to geospatial datasets. It would be great if the zoning information in the by-laws could be extracted in an efficient and automated way and joined with geospatial datasets.
+
+### Why is this valuable?
+
+* AI model architecture choice impacts accuracy, performance, and resources
+* The pros and cons of different model architectures are highlighted. For example:
+    * Short context models: faster, cheaper, but need chunking
+    * Long context models: handle more context/longer texts, slower/more expensive
+    * NLP models: no hallucinations, faster, lighter, trained on smaller datasets for highly specialized tasks
+    * Gen AI LLMs: hallucinations, resource intensive, trained on larger datasets for more general purpose use
+* Answers the questions: Is it worth integrating AI to automate workflows within this domain? How accurate can AI models be in handling this type of legal information where high accuracy is desirable?
 
 ### Pipelines Implemented
 
@@ -25,9 +35,9 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
 
-3. **Zero shot QA experiments**
+3. **Zero shot QA experiments** (folder name: "zeroshot_qa")
 
-    This experiement aims to test out and evaluate the performance of DistilBERT, LEGAL-BERT, and RoBERTa question answering models to extract information from zoning by-laws.
+    These experiements aims to test out and evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa NLP question answering models to extract information from zoning by-laws.
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/README.md)
 
@@ -59,8 +69,11 @@ zoning-extraction-pipelines
 |___zeroshot_qa/
 |   |___ README.md
 |   |___ zeroshot_qa_experiments.ipynb
+|   |___ zeroshot_qa_experiment2.ipynb
 |   |___ Example_bylawtext_markdown.md
 |   |___ R1Small-Scale-Multi-Unit-Housing-District.txt
+|   |___ ZoningDatasets.xlsx
+|   |___ ZeroshotDataset2.csv
 |   |___ requirements.txt
 ```
 
