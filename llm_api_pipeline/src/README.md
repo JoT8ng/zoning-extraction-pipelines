@@ -50,6 +50,9 @@ Example geoJSON output
 
 ![Geojson Out](images/geojsonout.jpg)
 
+## Why was Anthropic Claude used?
+Anthropic Claude was the generative LLM model chosen based on project requirements and organizational constraints at the time.
+
 ## Closing Thoughts
 
 This pipeline offers a powerful and efficient way to streamline zoning data extraction workflows, enabling users to process large, complex by-law PDFs and quickly surface relevant zoning details. By combining PDF parsing, fuzzy matching against authoritative geoJSON datasets, and targeted LLM queries, it reduces the manual effort required to locate and structure zoning information.

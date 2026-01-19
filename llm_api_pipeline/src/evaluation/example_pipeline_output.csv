@@ -1,0 +1,100 @@
+zone,height,coverage,flagged response
+# 2.20 RSF - Small Scale Flex Residential Zone,12,55,
+# 2.30 RSM - Small-Medium Scale Transition Residential Zone,14,60,
+# 2.40 RM - Medium Scale Residential Zone,28.0,50,
+# 2.50 RL - Large Scale Residential Zone,65.0,5.5,
+# 2.60 RR - Rural Residential Zone,12.0,30,
+# 2.70 MUN - Neighbourhood Mixed Use Zone,16.0,3.5,
+# 2.80 MU - Mixed Use Zone,Invalid,65, HEIGHT: Invalid - No maximum building height value could be extracted from the given zoning by-law excerpt.
+# 2.90 CN - Neighbourhood Commercial Zone,12.0,2.0,
+# 2.100 CG - General Commercial Zone,30.0,35,
+# 2.110 CB - Business Commercial Zone,30.0,35,
+# 2.120 BE - Business Employment Zone,16.0,1.6,
+# 2.130 IM - Medium Industrial Zone,18.0,60,
+# 2.140 IH - Heavy Industrial Zone,30.0,85,
+# 2.150 A - River Valley Zone,10.0,Invalid, COVERAGE: Invalid. No maximum lot coverage value is given in the provided zoning by-law excerpt.
+# 2.160 NA - Natural Areas Zone,10.0,Invalid, COVERAGE: Invalid - no maximum lot coverage value found.
+# 2.170 PSN - Neighbourhood Parks and Services Zone,14,80,
+# 2.180 PS - Parks and Services Zone,16,Invalid, COVERAGE: Invalid - No maximum lot coverage value found in the provided zoning by-law excerpt.
+# 2.190 PU - Public Utility Zone,18.0,100,
+# 2.200 UF - Urban Facilities Zone,16,650,
+# 2.210 UI - Urban Institution Zone,55.0 m,Invalid," COVERAGE: The maximum lot coverage value that I could extract from the provided zoning by-law excerpt is 60%.
+
+This value is found in Section 9.4.4 under Appendix III - The Orange Hub, which states:
+
+""9.4.4.  Maximum Floor Area for Commercial Uses  60% of the total Floor Area of buildings on the Site""
+
+Since Floor Area is typically used to calculate lot coverage by dividing it by the site area, this implies a maximum lot coverage of 60% for commercial uses in this specific area."
+# 2.220 AJ - Alternative Jurisdiction Zone,Invalid,Invalid, HEIGHT: Invalid (No height value provided) COVERAGE: Invalid - no coverage value found
+# 2.230 AG - Agriculture Zone,12.0,60,
+# 2.240 FD - Future Urban Development Zone,Invalid,Invalid," HEIGHT: Based on the zoning by-law excerpt provided, there does not seem to be a clearly specified maximum building height value. The excerpt discusses various regulations and provisions related to different zones and overlays but does not explicitly state a general maximum height limit. COVERAGE: Unfortunately there does not appear to be a maximum lot coverage value provided in the zoning by-law excerpt you provided. The excerpt details various zones, uses, and regulations for areas like the North Saskatchewan River Valley, airport protection areas, and downtown Edmonton, but does not explicitly state a maximum lot coverage percentage or number. My response is ""Invalid - no clear maximum lot coverage value found in the provided excerpt."""
+#### Mixed Use Zones,12.0,3.0,
+# 3.21 HDR - High Density Residential Zone,50.0,45,
+# 3.22 CMU - Commercial Mixed Use Zone,70,7.0,
+# 3.23 RMU - Residential Mixed Use Zone,50.0,5.0,
+# 3.24 UW - Urban Warehouse Zone,50.0,6.0,
+# 3.25 AED - Arena & Entertainment District Zone,275,85,
+# 3.26 HA - Heritage Area Zone,115,75,
+# 3.27 CCA - Core Commercial Arts Zone,150,90,
+# 3.28 JAMSC - Jasper Avenue Main Street Commercial Zone,70.0,Invalid, COVERAGE: Invalid - No maximum lot coverage value could be extracted from the provided excerpt.
+# 3.41 BP - Blatchford Parks Zone,30.0,15,
+# 3.42 BRH - Blatchford Row Housing Zone,15,60,
+# 3.43 BLMR - Blatchford Low to Medium Rise Residential Zone,45.0 m,65%,
+# 3.53 EETL - Edmonton Energy and Technology Park Logistics Zone,14,60,
+# 3.54 EETM - Edmonton Energy and Technology Park Manufacturing Zone,18.0,50,
+# 3.55 EETR - Edmonton Energy and Technology Park Industrial Reserve Zone,Invalid,60, HEIGHT: Invalid
+# 3.56 EETIM - Edmonton Energy and Technology Park Medium Industrial Zone,Invalid,Invalid," HEIGHT: Based on the zoning by-law excerpt provided, there is no explicit maximum building height value stated. The relevant information about building heights is in Section 5.1 Site and Building Regulations, under the ""Height"" subsection:
+
+5.1.2. Maximum Height 18.0 m
+
+So the maximum building height value that can be extracted from this excerpt is 18.0 m. COVERAGE: Unfortunately I could not find any explicit maximum lot coverage value mentioned in the excerpt provided. The excerpt appears to be zoning bylaw regulations for the Edmonton Energy and Technology Park area, and does not seem to directly state a maximum lot coverage percentage or ratio."
+# 3.61 AES - Agricultural Edmonton South Zone,Invalid,35, HEIGHT: Invalid - No maximum building height value provided
+# 3.62 RCES - Country Residential Edmonton South Zone,15,60,
+# 3.63 RAES - Acreage Residential Edmonton South Zone,10,50,
+# 3.64 NSRVES - North Saskatchewan River Valley Edmonton South Zone,10.0,2,
+# 3.65 IBES - Industrial Business Edmonton South Zone,6,80,
+# 3.67 UC3ES - Urban Commercial 3 Edmonton South Zone,14,60,
+# 3.68 DC/IND - Direct Control/Industrial District Edmonton South Zone,Invalid,Invalid, HEIGHT: Invalid: No maximum building height value could be found in the provided excerpt. COVERAGE: Invalid (no coverage value found)
+# 3.71 CCHD - Clareview Campus High Density Residential Zone,45.0,212,
+# 3.72 CCMD - Clareview Campus Medium Density Residential Zone,16,1.4,
+# 3.73 CCLD - Clareview Campus Low Density Residential Zone,10.0,47,
+# 3.74 CCSD - Clareview Campus Single Detached Residential Zone,10.0,45,
+# 3.75 CCNC - Clareview Campus Neighbourhood Commercial Zone,10.0 m,Invalid, COVERAGE: Invalid - No maximum lot coverage value could be extracted from the given zoning by-law excerpt.
+# 3.91 SLD - Stillwater Low Density Residential Zone,11,72,
+# 3.92 SRH - Stillwater Row Housing Zone,13.5,95,
+# 3.93 SRA - Stillwater Rear Attached Row Housing Zone,40.0,89,
+# 3.102 RTCR - Riverview Town Centre Residential Zone,60.0,60.0,
+# 3.111 RVRH - Riverview Row Housing Zone,13.0,57,
+# 3.131 MRC - Marquis Retail Centre Zone,26,0.25,
+# 3.132 MMUT - Marquis Mixed Use Transition Zone,26,0.25,
+# 3.133 MMS - Marquis Main Street Zone,24.0,3.0,
+# 3.134 MED - Marquis Entertainment District Zone,Invalid,Invalid," HEIGHT: Based on the excerpt provided, the maximum building height value is 26.0 m as stated in Table 5.1 under the ""Height"" section:
+
+""5.1.1. Maximum Height 26.0 m""
+
+26.0 COVERAGE: Based on the provided zoning by-law excerpt, there does not appear to be any explicit maximum lot coverage value specified. The response should be:
+
+Invalid - No maximum lot coverage value provided in the excerpt."
+# 3.151 PLD - Paisley Low Density Zone,12.0,53,
+# 3.152 PRH - Paisley Row Housing Zone,12.0,55,
+# 3.161 ALA - Ambleside Low-Rise Apartment Zone,16.0,1.5,
+# 3.162 ASC - Ambleside Shopping Centre Zone,40.0,1.0,
+# 3.163 AUVC - Ambleside Urban Village Commercial Zone,60.0,3.0,
+# 3.171 GVC - Griesbach Village Centre Zone,18,50,
+# 3.172 GLD - Griesbach Low Density Residential Zone,12.0,53,
+# 3.173 GRH - Griesbach Row Housing Zone,12.0,53,
+# 3.174 GLRA - Griesbach Low Rise Apartment Zone,18.0,65,
+# 3.175 GLDF - Griesbach Low Density Residential Flex Zone,23,35,
+# 3.176 GMRA - Griesbach Medium Rise Apartment Zone,23.0,40,
+# 3.181 EIB - Ellerslie Industrial Business Zone,12.0,60,
+# 3.182 EIM - Ellerslie Medium Industrial Zone,18.0,2.0,
+# 3.183 ECB - Ellerslie Business Commercial Zone,Invalid,Invalid, HEIGHT: The maximum building height value extracted from the excerpt is 16.0 m. COVERAGE: Invalid. There is no maximum lot coverage value provided in this excerpt of the zoning by-law.
+## 4. Specific Regulations for Small and Medium Scale Residential and Agriculture Zones,1.8,60,
+"## 5. Specific Regulations for Large Scale Residential, Mixed Use and Neighbourhood Commercial Zones",6.0,5,
+## 6. Specific Regulations for General Commercial and Business Employment Zones,8.0,Invalid, COVERAGE: Invalid (no lot coverage value found)
+## 7. Specific Regulations for Medium and Heavy Industrial Zones,10.0,Invalid, COVERAGE: Invalid - No maximum lot coverage value found in the given excerpt.
+"## 9. Specific Regulations for Urban Institution, Heritage Area and Direct Control Zones",Invalid,70," HEIGHT: Invalid, no maximum building height value found in the given zoning by-law excerpt."
+#### Additional Regulations for Mixed Use Zones and Main Street Developments,Invalid,Invalid, HEIGHT: Invalid - No maximum building height value could be found in the provided excerpt. COVERAGE: Invalid - No maximum lot coverage value found in the provided excerpt.
+## 4. Direct Control Zones and Existing Development Permits,Invalid,Invalid, HEIGHT: Invalid - No maximum building height value could be found in the provided excerpt. COVERAGE: Invalid - There is no clear maximum lot coverage value provided in the given excerpt.
+# 7.80 Application of Direct Control Zones,Invalid,Invalid," HEIGHT: Based on the provided excerpt, there does not appear to be a maximum building height value explicitly stated or extracted. The passage discusses things like development permit requirements, exceptions, setbacks, and other zoning regulations, but does not give a specific maximum height value. COVERAGE: Based on the excerpt provided, there is no maximum lot coverage value explicitly stated. The definitions in the Zoning By-law do not appear to define a term for ""maximum lot coverage""."
+## Zone,Invalid,Invalid, HEIGHT: Invalid. The excerpt does not contain any maximum building height value. COVERAGE: Invalid. There does not appear to be a maximum lot coverage value specified in the given excerpt.
