@@ -1,84 +1,84 @@
-﻿doc_id,zone,height_answer,coverage_answer,height_ground_truth,coverage_ground_truth,comments
-1,# 2.20 RSF - Small Scale Flex Residential Zone,12,55,12,55,None
-2,# 2.30 RSM - Small-Medium Scale Transition Residential Zone,14,60,14,60,There are actually two values for height: 12 and 14m. Current pipeline prompt doesn't allow LLM to respond with more than one value.
-3,# 2.40 RM - Medium Scale Residential Zone,28,50,28,Invalid,"There are actually three values for height: 16, 23, 28m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-4,# 2.50 RL - Large Scale Residential Zone,65,5.5,65,Invalid,"There are actually two values for height: 60, 65m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-5,# 2.60 RR - Rural Residential Zone,12,30,12,Invalid,None
-6,# 2.70 MUN - Neighbourhood Mixed Use Zone,16,3.5,16,Invalid,None
-7,# 2.80 MU - Mixed Use Zone,Invalid,65,Invalid,Invalid,None
-8,# 2.90 CN - Neighbourhood Commercial Zone,12,2,12,Invalid,None
-9,# 2.100 CG - General Commercial Zone,30,35,16,Invalid,None
-10,# 2.110 CB - Business Commercial Zone,30,35,16,Invalid,None
-11,# 2.120 BE - Business Employment Zone,16,1.6,16,Invalid,None
-12,# 2.130 IM - Medium Industrial Zone,18,60,18,Invalid,None
-13,# 2.140 IH - Heavy Industrial Zone,30,85,30,Invalid,None
-14,# 2.150 A - River Valley Zone,10,Invalid,10,Invalid,None
-15,# 2.160 NA - Natural Areas Zone,10,Invalid,Invalid,Invalid,None
-16,# 2.170 PSN - Neighbourhood Parks and Services Zone,14,80,14,Invalid,None
-17,# 2.180 PS - Parks and Services Zone,16,Invalid,16,Invalid,None
-18,# 2.190 PU - Public Utility Zone,18,100,12,Invalid,None
-19,# 2.200 UF - Urban Facilities Zone,16,650,16,Invalid,None
-20,# 2.210 UI - Urban Institution Zone,55.0 m,Invalid,55,Invalid,None
-21,# 2.220 AJ - Alternative Jurisdiction Zone,Invalid,Invalid,Invalid,Invalid,None
-22,# 2.230 AG - Agriculture Zone,12,60,12,Invalid,None
-23,# 2.240 FD - Future Urban Development Zone,Invalid,Invalid,Invalid,Invalid,None
-24,#### Mixed Use Zones,12,3,Invalid,Invalid,None
-25,# 3.21 HDR - High Density Residential Zone,50,45,50,Invalid,None
-26,# 3.22 CMU - Commercial Mixed Use Zone,70,7,70,Invalid,"There are actually two values for height: 70, 50m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-27,# 3.23 RMU - Residential Mixed Use Zone,50,5,50,Invalid,None
-28,# 3.24 UW - Urban Warehouse Zone,50,6,50,Invalid,None
-29,# 3.25 AED - Arena & Entertainment District Zone,275,85,275,Invalid,"There are actually three values for height: 180, 195, 275m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-30,# 3.26 HA - Heritage Area Zone,115,75,115,Invalid,None
-31,# 3.27 CCA - Core Commercial Arts Zone,150,90,150,Invalid,None
-32,# 3.28 JAMSC - Jasper Avenue Main Street Commercial Zone,70,Invalid,70,Invalid,None
-33,# 3.41 BP - Blatchford Parks Zone,30,15,30,15,"There are actually two values for height: 10, 30m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-34,# 3.42 BRH - Blatchford Row Housing Zone,15,60,15,60,"There are actually two values for height: 13, 15m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-35,# 3.43 BLMR - Blatchford Low to Medium Rise Residential Zone,45.0 m,65%,23,65,None
-36,# 3.53 EETL - Edmonton Energy and Technology Park Logistics Zone,14,60,14,Invalid,None
-37,# 3.54 EETM - Edmonton Energy and Technology Park Manufacturing Zone,18,50,18,Invalid,None
-38,# 3.55 EETR - Edmonton Energy and Technology Park Industrial Reserve Zone,Invalid,60,Invalid,Invalid,None
-39,# 3.56 EETIM - Edmonton Energy and Technology Park Medium Industrial Zone,Invalid,Invalid,18,Invalid,None
-40,# 3.61 AES - Agricultural Edmonton South Zone,Invalid,35,Invalid,5,None
-41,# 3.62 RCES - Country Residential Edmonton South Zone,15,60,Invalid,Invalid,None
-42,# 3.63 RAES - Acreage Residential Edmonton South Zone,10,50,Invalid,Invalid,None
-43,# 3.64 NSRVES - North Saskatchewan River Valley Edmonton South Zone,10,2,10,Invalid,None
-44,# 3.65 IBES - Industrial Business Edmonton South Zone,6,80,6,80,None
-45,# 3.67 UC3ES - Urban Commercial 3 Edmonton South Zone,14,60,14,60,"There are actually two values for height: 14, 7m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-46,# 3.68 DC/IND - Direct Control/Industrial District Edmonton South Zone,Invalid,Invalid,Invalid,Invalid,None
-47,# 3.71 CCHD - Clareview Campus High Density Residential Zone,45,212,45,Invalid,None
-48,# 3.72 CCMD - Clareview Campus Medium Density Residential Zone,16,1.4,16,Invalid,"There are actually two values for height: 16, 10m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-49,# 3.73 CCLD - Clareview Campus Low Density Residential Zone,10,47,10,47,None
-50,# 3.74 CCSD - Clareview Campus Single Detached Residential Zone,10,45,10,45,None
-51,# 3.75 CCNC - Clareview Campus Neighbourhood Commercial Zone,10.0 m,Invalid,10,Invalid,None
-52,# 3.91 SLD - Stillwater Low Density Residential Zone,11,72,11,72,"There are actually five values for coverage: 60, 57, 68, 60, 72m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-53,# 3.92 SRH - Stillwater Row Housing Zone,13.5,95,13.5,Multiple Values,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.
-54,# 3.93 SRA - Stillwater Rear Attached Row Housing Zone,40,89,13.5,89,None
-55,# 3.102 RTCR - Riverview Town Centre Residential Zone,60,60,60,Invalid,"There are actually two values for height: 60, 50m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-56,# 3.111 RVRH - Riverview Row Housing Zone,13,57,13,57,"There are actually five values for coverage: 57, 45, 40. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-57,# 3.131 MRC - Marquis Retail Centre Zone,26,0.25,26,Invalid,None
-58,# 3.132 MMUT - Marquis Mixed Use Transition Zone,26,0.25,26,Invalid,None
-59,# 3.133 MMS - Marquis Main Street Zone,24,3,24,Invalid,None
-60,# 3.134 MED - Marquis Entertainment District Zone,Invalid,Invalid,26,Invalid,None
-61,# 3.151 PLD - Paisley Low Density Zone,12,53,12,53,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.
-62,# 3.152 PRH - Paisley Row Housing Zone,12,55,12,55,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.
-63,# 3.161 ALA - Ambleside Low-Rise Apartment Zone,16,1.5,16,Invalid,"There are actually two values for height: 14.5, 16m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-64,# 3.162 ASC - Ambleside Shopping Centre Zone,40,1,40,Invalid,"There are actually two values for height: 14, 40m. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-65,# 3.163 AUVC - Ambleside Urban Village Commercial Zone,60,3,60,Invalid,None
-66,# 3.171 GVC - Griesbach Village Centre Zone,18,50,18,50,"There are actually two values for coverage: 35, 50. Current pipeline prompt doesn't allow LLM to respond with more than one value."
-67,# 3.172 GLD - Griesbach Low Density Residential Zone,12,53,,,
-68,# 3.173 GRH - Griesbach Row Housing Zone,12,53,,,
-69,# 3.174 GLRA - Griesbach Low Rise Apartment Zone,18,65,,,
-70,# 3.175 GLDF - Griesbach Low Density Residential Flex Zone,23,35,,,
-71,# 3.176 GMRA - Griesbach Medium Rise Apartment Zone,23,40,,,
-72,# 3.181 EIB - Ellerslie Industrial Business Zone,12,60,,,
-73,# 3.182 EIM - Ellerslie Medium Industrial Zone,18,2,,,
-74,# 3.183 ECB - Ellerslie Business Commercial Zone,Invalid,Invalid,,,
-75,## 4. Specific Regulations for Small and Medium Scale Residential and Agriculture Zones,1.8,60,Invalid,Invalid,
-76,"## 5. Specific Regulations for Large Scale Residential, Mixed Use and Neighbourhood Commercial Zones",6,5,Invalid,Invalid,
-77,## 6. Specific Regulations for General Commercial and Business Employment Zones,8,Invalid,Invalid,Invalid,
-78,## 7. Specific Regulations for Medium and Heavy Industrial Zones,10,Invalid,Invalid,Invalid,
-79,"## 9. Specific Regulations for Urban Institution, Heritage Area and Direct Control Zones",Invalid,70,Invalid,Invalid,
-80,#### Additional Regulations for Mixed Use Zones and Main Street Developments,Invalid,Invalid,Invalid,Invalid,
-81,## 4. Direct Control Zones and Existing Development Permits,Invalid,Invalid,Invalid,Invalid,
-82,# 7.80 Application of Direct Control Zones,Invalid,Invalid,Invalid,Invalid,
-83,## Zone,Invalid,Invalid,Invalid,Invalid,
+﻿doc_id,zone,height_answer,coverage_answer,height_ground_truth,coverage_ground_truth,comments,municipality
+1,# 2.20 RSF - Small Scale Flex Residential Zone,12,55,12,55,None,Edmonton
+2,# 2.30 RSM - Small-Medium Scale Transition Residential Zone,14,60,14,60,There are actually two values for height: 12 and 14m. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+3,# 2.40 RM - Medium Scale Residential Zone,28,50,28,Invalid,"There are actually three values for height: 16, 23, 28m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+4,# 2.50 RL - Large Scale Residential Zone,65,5.5,65,Invalid,"There are actually two values for height: 60, 65m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+5,# 2.60 RR - Rural Residential Zone,12,30,12,Invalid,None,Edmonton
+6,# 2.70 MUN - Neighbourhood Mixed Use Zone,16,3.5,16,Invalid,None,Edmonton
+7,# 2.80 MU - Mixed Use Zone,Invalid,65,Invalid,Invalid,None,Edmonton
+8,# 2.90 CN - Neighbourhood Commercial Zone,12,2,12,Invalid,None,Edmonton
+9,# 2.100 CG - General Commercial Zone,30,35,16,Invalid,None,Edmonton
+10,# 2.110 CB - Business Commercial Zone,30,35,16,Invalid,None,Edmonton
+11,# 2.120 BE - Business Employment Zone,16,1.6,16,Invalid,None,Edmonton
+12,# 2.130 IM - Medium Industrial Zone,18,60,18,Invalid,None,Edmonton
+13,# 2.140 IH - Heavy Industrial Zone,30,85,30,Invalid,None,Edmonton
+14,# 2.150 A - River Valley Zone,10,Invalid,10,Invalid,None,Edmonton
+15,# 2.160 NA - Natural Areas Zone,10,Invalid,Invalid,Invalid,None,Edmonton
+16,# 2.170 PSN - Neighbourhood Parks and Services Zone,14,80,14,Invalid,None,Edmonton
+17,# 2.180 PS - Parks and Services Zone,16,Invalid,16,Invalid,None,Edmonton
+18,# 2.190 PU - Public Utility Zone,18,100,12,Invalid,None,Edmonton
+19,# 2.200 UF - Urban Facilities Zone,16,650,16,Invalid,None,Edmonton
+20,# 2.210 UI - Urban Institution Zone,55.0 m,Invalid,55,Invalid,None,Edmonton
+21,# 2.220 AJ - Alternative Jurisdiction Zone,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+22,# 2.230 AG - Agriculture Zone,12,60,12,Invalid,None,Edmonton
+23,# 2.240 FD - Future Urban Development Zone,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+24,#### Mixed Use Zones,12,3,Invalid,Invalid,None,Edmonton
+25,# 3.21 HDR - High Density Residential Zone,50,45,50,Invalid,None,Edmonton
+26,# 3.22 CMU - Commercial Mixed Use Zone,70,7,70,Invalid,"There are actually two values for height: 70, 50m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+27,# 3.23 RMU - Residential Mixed Use Zone,50,5,50,Invalid,None,Edmonton
+28,# 3.24 UW - Urban Warehouse Zone,50,6,50,Invalid,None,Edmonton
+29,# 3.25 AED - Arena & Entertainment District Zone,275,85,275,Invalid,"There are actually three values for height: 180, 195, 275m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+30,# 3.26 HA - Heritage Area Zone,115,75,115,Invalid,None,Edmonton
+31,# 3.27 CCA - Core Commercial Arts Zone,150,90,150,Invalid,None,Edmonton
+32,# 3.28 JAMSC - Jasper Avenue Main Street Commercial Zone,70,Invalid,70,Invalid,None,Edmonton
+33,# 3.41 BP - Blatchford Parks Zone,30,15,30,15,"There are actually two values for height: 10, 30m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+34,# 3.42 BRH - Blatchford Row Housing Zone,15,60,15,60,"There are actually two values for height: 13, 15m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+35,# 3.43 BLMR - Blatchford Low to Medium Rise Residential Zone,45.0 m,65%,23,65,None,Edmonton
+36,# 3.53 EETL - Edmonton Energy and Technology Park Logistics Zone,14,60,14,Invalid,None,Edmonton
+37,# 3.54 EETM - Edmonton Energy and Technology Park Manufacturing Zone,18,50,18,Invalid,None,Edmonton
+38,# 3.55 EETR - Edmonton Energy and Technology Park Industrial Reserve Zone,Invalid,60,Invalid,Invalid,None,Edmonton
+39,# 3.56 EETIM - Edmonton Energy and Technology Park Medium Industrial Zone,Invalid,Invalid,18,Invalid,None,Edmonton
+40,# 3.61 AES - Agricultural Edmonton South Zone,Invalid,35,Invalid,5,None,Edmonton
+41,# 3.62 RCES - Country Residential Edmonton South Zone,15,60,Invalid,Invalid,None,Edmonton
+42,# 3.63 RAES - Acreage Residential Edmonton South Zone,10,50,Invalid,Invalid,None,Edmonton
+43,# 3.64 NSRVES - North Saskatchewan River Valley Edmonton South Zone,10,2,10,Invalid,None,Edmonton
+44,# 3.65 IBES - Industrial Business Edmonton South Zone,6,80,6,80,None,Edmonton
+45,# 3.67 UC3ES - Urban Commercial 3 Edmonton South Zone,14,60,14,60,"There are actually two values for height: 14, 7m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+46,# 3.68 DC/IND - Direct Control/Industrial District Edmonton South Zone,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+47,# 3.71 CCHD - Clareview Campus High Density Residential Zone,45,212,45,Invalid,None,Edmonton
+48,# 3.72 CCMD - Clareview Campus Medium Density Residential Zone,16,1.4,16,Invalid,"There are actually two values for height: 16, 10m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+49,# 3.73 CCLD - Clareview Campus Low Density Residential Zone,10,47,10,47,None,Edmonton
+50,# 3.74 CCSD - Clareview Campus Single Detached Residential Zone,10,45,10,45,None,Edmonton
+51,# 3.75 CCNC - Clareview Campus Neighbourhood Commercial Zone,10.0 m,Invalid,10,Invalid,None,Edmonton
+52,# 3.91 SLD - Stillwater Low Density Residential Zone,11,72,11,72,"There are actually five values for coverage: 60, 57, 68, 60, 72m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+53,# 3.92 SRH - Stillwater Row Housing Zone,13.5,95,13.5,Multiple Values,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+54,# 3.93 SRA - Stillwater Rear Attached Row Housing Zone,40,89,13.5,89,None,Edmonton
+55,# 3.102 RTCR - Riverview Town Centre Residential Zone,60,60,60,Invalid,"There are actually two values for height: 60, 50m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+56,# 3.111 RVRH - Riverview Row Housing Zone,13,57,13,57,"There are actually five values for coverage: 57, 45, 40. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+57,# 3.131 MRC - Marquis Retail Centre Zone,26,0.25,26,Invalid,None,Edmonton
+58,# 3.132 MMUT - Marquis Mixed Use Transition Zone,26,0.25,26,Invalid,None,Edmonton
+59,# 3.133 MMS - Marquis Main Street Zone,24,3,24,Invalid,None,Edmonton
+60,# 3.134 MED - Marquis Entertainment District Zone,Invalid,Invalid,26,Invalid,None,Edmonton
+61,# 3.151 PLD - Paisley Low Density Zone,12,53,12,53,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+62,# 3.152 PRH - Paisley Row Housing Zone,12,55,12,55,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+63,# 3.161 ALA - Ambleside Low-Rise Apartment Zone,16,1.5,16,Invalid,"There are actually two values for height: 14.5, 16m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+64,# 3.162 ASC - Ambleside Shopping Centre Zone,40,1,40,Invalid,"There are actually two values for height: 14, 40m. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+65,# 3.163 AUVC - Ambleside Urban Village Commercial Zone,60,3,60,Invalid,None,Edmonton
+66,# 3.171 GVC - Griesbach Village Centre Zone,18,50,18,50,"There are actually two values for coverage: 35, 50. Current pipeline prompt doesn't allow LLM to respond with more than one value.",Edmonton
+67,# 3.172 GLD - Griesbach Low Density Residential Zone,12,53,12,53,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+68,# 3.173 GRH - Griesbach Row Housing Zone,12,53,12,53,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+69,# 3.174 GLRA - Griesbach Low Rise Apartment Zone,18,65,18,Invalid,None,Edmonton
+70,# 3.175 GLDF - Griesbach Low Density Residential Flex Zone,23,35,12,35,There are actually multiple values for coverage. Current pipeline prompt doesn't allow LLM to respond with more than one value.,Edmonton
+71,# 3.176 GMRA - Griesbach Medium Rise Apartment Zone,23,40,23,Invalid,None,Edmonton
+72,# 3.181 EIB - Ellerslie Industrial Business Zone,12,60,12,Invalid,None,Edmonton
+73,# 3.182 EIM - Ellerslie Medium Industrial Zone,18,2,18,Invalid,None,Edmonton
+74,# 3.183 ECB - Ellerslie Business Commercial Zone,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+75,## 4. Specific Regulations for Small and Medium Scale Residential and Agriculture Zones,1.8,60,Invalid,Invalid,None,Edmonton
+76,"## 5. Specific Regulations for Large Scale Residential, Mixed Use and Neighbourhood Commercial Zones",6,5,Invalid,Invalid,None,Edmonton
+77,## 6. Specific Regulations for General Commercial and Business Employment Zones,8,Invalid,Invalid,Invalid,None,Edmonton
+78,## 7. Specific Regulations for Medium and Heavy Industrial Zones,10,Invalid,Invalid,Invalid,None,Edmonton
+79,"## 9. Specific Regulations for Urban Institution, Heritage Area and Direct Control Zones",Invalid,70,Invalid,Invalid,None,Edmonton
+80,#### Additional Regulations for Mixed Use Zones and Main Street Developments,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+81,## 4. Direct Control Zones and Existing Development Permits,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+82,# 7.80 Application of Direct Control Zones,Invalid,Invalid,Invalid,Invalid,None,Edmonton
+83,## Zone,Invalid,Invalid,Invalid,Invalid,None,Edmonton
