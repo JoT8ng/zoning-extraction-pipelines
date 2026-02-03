@@ -34,6 +34,7 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
     This pipeline explores extracting the zoning information by first extracting and parsing the text as markdown from the by-law PDFs, then sending a query to the LLM API with the extracted text. The LLM responds with the zoning information and the response is processed and exported into CSV format and joined with a zoning GeoJSON dataset.
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
+    [Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/evaluation/llm_api_evaluation.ipynb)
 
 3. **Zero shot QA experiments** (folder name: "zeroshot_qa")
 
@@ -42,6 +43,10 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/README.md)
 
     [Link to Notebook/ most updated experiment](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/zeroshot_qa_experiment2.ipynb)
+
+4. **Fine-Tuning RoBERTa for By-law data extraction**
+
+    Work in progress...
 
 ## Folder Structure
 Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 
