@@ -44,7 +44,7 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
     [Link to Notebook/ most updated experiment](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/zeroshot_qa_experiment2.ipynb)
 
-4. **Fine-Tuning RoBERTa for By-law data extraction**
+4. **Fine-Tuning Experiments**
 
     Work in progress...
 
