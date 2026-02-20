@@ -1,101 +1,101 @@
-doc_id,question,ground_truth,municipality,model_answer
-1,What is the maximum building height for accessory buildings?,4.0 m | 1 storey,Burnaby,4.0 m | 1 storey
-2,What is the minimum lot frontage requirements?,6 metres (19.7 ft.),Niagara Falls,6 metres (19.7 ft.).
-3,Where does a child care facility in the R1 district be located?,on a corner lot,Burnaby,on a corner lot
-4,"For lots in the R1 district on the Community Heritage Register, what is the minimum lot line setback for street yards?",2.0 m,Burnaby,2.0 m
-5,What is the minimum rear yard depth where any part of the building is used for residential purposes?,10 metres (33.0 ft.) plus any applicable distance specified in section 4.27.1,Niagara Falls,10 metres (33.0 ft.)
-6,What is the maximum lot coverage?,70%,Niagara Falls,70%.
-7,What is the maximum height of building or structure?,12 metres (40.0 ft.) subject to section 4.7,Niagara Falls,12 metres (40.0 ft.) subject to section 4.7
-8,What is the maximum floor area?,not specified,Niagara Falls,400 square metres
-9,What is the minimum width and area for outdoor amenity space for each primary dwelling unit?,An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m2,Burnaby,2.0 m and area of 10.0 m2
-10,What is the maximum building height for a sloping roof?,9.0 m (29.5 ft.),Burnaby,9.0 m (29.5 ft.)
-11,What is the minimum width of dwelling units?,5.03 m (16.5 ft.),Burnaby,5.03 m (16.5 ft.).
-12,What is the maximum floor area ratio?,0.70,Burnaby,0.70
-13,What is the minimum front yard depth?,4.57 m (15 ft.),Burnaby,4.57 m (15 ft.)
-14,What is the minimum lot width?,20.12 m (66 ft.),Burnaby,20.12 m (66 ft.).
-15,What is the minimum width of a lot side yard for a corner lot?,3.0 m (9.84 ft.),Burnaby,3.0 m (9.84 ft.).
-16,What is the minimum depth of a rear yard?,4.57 m (15 ft.),Burnaby,4.57 m (15 ft.)
-17,What is the minimum width of a building?,30.48 m (100 ft.),Burnaby,30.48 m (100 ft.).
-18,What are the requirements for off-street vehicle parking?,Off-street vehicle parking shall be provided and maintained in accordance with Schedule VIII of this Bylaw,Burnaby,shall be provided and maintained in accordance with Schedule VIII of this Bylaw
-19,What is the maximum building height?,37 m (121.39 ft.) nor 10 storeys,Burnaby,37 m (121.39 ft.) nor 10 storeys
-20,What is the maximum floor area ratio?,5.00,Burnaby,5.00
-21,What is the maximum floor space ratio?,0.70,Vancouver,0.70
-22,What is the maximum floor space ratio?,4.00,Vancouver,4.00
-23,What is the maximum floor space ratio?,5.50,Vancouver,5.50
-24,What is the minimum site area?,460 m2,Vancouver,460 m2
-25,What is the minimum site area for a corner site?,"1,348 m2",Vancouver,"1,348 m2"
-26,What is the maximum building height?,11.0 metres,Calgary,11.0 metres measured from grade
-27,What is the maximum building height?,12.0 metres,Calgary,12.0 metres
-28,What is the maximum building height?,16.0 metres,Calgary,16.0 metres
-29,What is the minimum number of motor vehicle parking stalls required?,calculated based on the sum of all units and suites at a rate of 1.0 stalls per unit or suite,Calgary,1.0 stalls per unit or suite
-30,What is the maximum density for parcels in the M-CG District?,111 units per hectare,Calgary,111 units per hectare
-31,What is the minimum lot size in square metres?,447 m2,City of Langley,"557 m2 [5,995.69 ft2],"
-32,What is the maximum number of units for a Principal Building?,4; 6 if within 400 m of frequent bus stop,City of Langley,4
-33,What are the requirements for off-street vehicle parking?, in accordance with Section I.E. of this Bylaw,City of Langley,maintained in accordance with Section I.E. of this Bylaw
-34,What are the rear and front setbacks for a principal building?,"Front is 7.5m [24.61 ft], Rear is 7.5m [24.61 ft]",City of Langley,"7.5m [24.61 ft],"
-35,What is the minimum lot size?,"930 m2 [10,010.76 ft2]",City of Langley,"930 m2 [10,010.76 ft2],"
-36,What is the maximum number of units for a Principal Building?,4; 6 if within 400 m of frequent bus stop,City of Langley,4
-37,What are the landscaping requirements for this zone?,Not Applicable,City of Langley,Not Applicable to this Zone
-38,What is the interior setback for a principal building?,3.0m [9.84 ft],City of Langley,"3.0m [9.84 ft],"
-39,Where are the general provisions set out in this Bylaw?,Section I.D.,City of Langley,Section I.D.
-40,What is the minimum lot size?,"222 m2 [2,389.66 ft2]",City of Langley,"222 m2 [2,389.66 ft2],"
-41,What is the minimum lot frontage?,"50 feet except when a lot faces on the outer side of a curve in the street, in which case the min. frontage may be reduced to 30 feet",Halifax,50 feet
-42,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet"
-43,What is the minimum lot coverage?,35 percent,Halifax,maximum 35 percent
-44,What is the maximum height?,35 feet,Halifax,35 feet
-45,What are the requirements for a building on a corner lot?,it shall be at least 10 feet from the flanking street line abutting such lot,Halifax,at least 10 feet from the flanking street line abutting such lot
-46,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet"
-47,What is the maximum height?,35 feet,Halifax,35 feet
-48,What is the minimum lot frontage for a semi-detached dweling?,25 feet,Halifax,25 feet
-49,What is the maximum lot coverage for a semi-detached dwelling?,not greater than 35 percent,Halifax,not greater than 35 percent
-50,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet"
-51,What are the uses permitted?,(a) Single Family Dwelling (b) Small-Scale Multi-Unit Housing (c) Boarding (d) Home Occupation (e) Accessory Buildings and Structures (f) Accessory Produce Sales,Saanich,Single Family Dwelling (b) Small-Scale Multi-Unit Housing
-52,What are the boarding requirements?,There shall be not more than two boarders in a dwelling unit,Saanich,There shall be not more than two boarders in a dwelling unit
-53,What is the maximum lot coverage for all buildings?,40%,Saanich,40% of the lot area
-54,For buildings and structures for single family dwelling what are the front lot line setback requirements for lots having an area exceeding 2000 m2?,15.0 m (49.2 ft),Saanich,15.0 m (49.2 ft) from a front lot line
-55,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line
-56,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,3.5 m (11.5 ft),Saanich,3.5 m (11.5 ft)
-57,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade"
-58,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line
-59,What is the maximum gross floor area for buildings and structures for single family dwelling?,667 m2 (7179 ft2),Saanich,"667 m2 (7179 ft2),"
-60,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,shall be regulated in accordance with Schedule “G”.
-61,What are the minimum lot size requirements?,"No land shall be subdivided into lots having a width or an area less than: (a) Standard Lot: width 25 m (82.0 ft), area 1450 m2 (15608 ft2) (b) Panhandle Lot: width 30 m (98.4 ft), area excluding access strip 1750 m2 (18837 ft2)",Saanich,No land shall be subdivided into lots having a width or an area less
-62,What are the uses permitted?,(a) Single Family Dwelling (b) Small-Scale Multi-Unit Housing (c) Boarding in Single Family Dwelling (d) Home Occupation (e) Accessory Buildings and Structures (f) Accessory Produce Sales,Saanich,Single Family Dwelling (b) Small-Scale Multi-Unit Housing
-63,What are the boarding requirements?,There shall be not more than two boarders in a single family dwelling,Saanich,There shall be not more than two boarders in a single family dwelling
-64,What is the maximum lot coverage for all buildings?,30%,Saanich,30% of the lot area
-65,For buildings and structures for single family dwelling what are the front lot line setback requirements?,7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft) from a front lot line
-66,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line
-67,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,4.5 m (14.7 ft),Saanich,4.5 m (14.7 ft)
-68,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade"
-69,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line
-70,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,Accessory Buildings and Structures
-71,For accessory buildings and structures what are the front lot line setback requirements?,7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft) from a front lot line
-72,For accessory buildings and structures what are the rear lot line setback requirements?,1.5 m (4.9 ft),Saanich,1.5 m (4.9 ft) from a rear lot line
-73,For accessory buildings and structures what are the interior side lot line setback requirements?,3.0 m (9.8 ft),Saanich,7.5 m (24.6 ft) from a front lot line
-74,For accessory buildings and structures what are the exterior side lot line setback requirements?,4.5 m (14.7 ft),Saanich,7.5 m (24.6 ft) from a front lot line
-75,For accessory buildings and structures what is the maximum lot coverage?,10%,Saanich,10%.
-76,What is the minimum lot size for panhandle lots?,not permitted,Saanich,not permitted
-77,What are the uses permitted?,"a) Single Family Dwelling (b) Apartment (c) Attached Housing (d) Home Occupation Office and Daycare, Child (e) Accessory Buildings and Structures (f) Accessory Produce Sales",Saanich,Single Family Dwelling (b) Apartment (c) Attached Housing
-78,What is the maximum lot coverage for all buildings and structures?,35%,Saanich,35 % of the lot area
-79,What is the maximum density?,one dwelling unit per 500 m2 (5382 ft2) of lot area,Saanich,dwelling unit per 500 m2 (5382 ft2) of lot area
-80,"For buildings and structures for single family dwellings, attached housing and apartment what are the lot line setbacks for any lot line abutting a street?",7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft)
-81,What is the lawful building setback for a front lot line?,the minimum front yard setback for that lawfully existing building or structure,Toronto,the minimum front yard setback for that lawfully existing building or structure
-82,What is the lawful building setback for a rear lot line?,the minimum rear yard setback for that lawfully existing building or structure,Toronto,the minimum rear yard setback for that lawfully existing building or structure
-83,What is the minimum front lot line requirements for a residential building?,"In the Residential Apartment Zone category, a residential building may not be erected on a lot that does not have a front lot line of at least 3.5 metres, unless the lot: (A) abuts a lane with a minimum width of 6.0 metres; and (B) has a minimum of 3.5 metres of the rear lot line abutting the lane",Toronto,at least 3.5 metres
-84,What is the permitted lot frontage for lawfully existing lots?,"In the Residential Apartment Zone category, if the lawful lot frontage of a lawfully existing lot is less than the required minimum lot frontage by this By-law, that lawful lot frontage is the minimum lot frontage for that lawfully existing lot.",Toronto,the minimum lot frontage
-85,How is the height of the building determined?,the height of a building is the distance between the established grade and the elevation of the highest point of the building,Toronto,distance between the established grade and the elevation of the highest point of the building
-86,What building use areas is the gross floor area of the apartment building reduced by?,"(A) parking, loading and bicycle parking below established grade; (B) required loading spaces and required bicycle parking spaces at or above established grade; (C) storage rooms, washrooms, electrical, utility, mechanical and ventilation rooms in the basement; (D) shower and change facilities and bicycle maintenance facilities required by this By-law for required bicycle parking spaces; [ By-law: 839-2022 ] (E) indoor amenity space required by this By-law; (F) elevator shafts; (G) garbage shafts; (H) mechanical penthouse; and (I) exit stairwells in the building",Toronto,"(A) parking, loading and bicycle parking below established grade"
-87,How is the floor space index calculated for apartment buildings?,"the result of the gross floor area, minus the areas of an apartment building listed in regulation 15.5.40.40(1), divided by the area of the lot",Toronto,the gross floor area of a building divided by the area of the lot
-88,What are the minimum lot frontage requirements in the RA zone?,"(A) if a zone label includes the letter ""f"", on the Zoning By-law Map, the numerical value following the letter ""f"" is the required minimum lot frontage, in metres; and (B) if the zone label on the Zoning By-law Map does not include an ""f"" value on the Zoning By-law Map, the required minimum lot frontage is 24.0 metres",Toronto,24.0 metres
-89,What are the maximum lot coverage requirements in the RA zone?,"(A) if a lot is in an area with a numerical value on the Lot Coverage Overlay Map, that numerical value is the permitted maximum lot coverage, as a percentage of the lot area; and (B) if a lot is not in an area with a numerical value on the Lot Coverage Overlay Map, no lot coverage applies.",Toronto,as a percentage of the lot area
-90,"Where parking is underground or at the rear, what is the minimum front yard setback?",3.0m or the average of the existing front yard setbacks of buildings on either side of the subject property,Toronto,the applicable zoning by-law
-91,What is the minimum rear yard setback?,7.5m rear yard setback from the rear property line. A private lane or driveway may be included for the purposes of establishing the setback and angular plane,Toronto,7.5m
-92,What is the site specific provision for the height of a building or structure?,"The height of a building or structure, as measured from 89.90 metres Canadian Geodetic Datum, must not exceed the height in metres specified by the numbers following the symbol H as shown on Diagram 3 attached to this By-law",Toronto,must not exceed the height in metres specified by the numbers following the symbol H
-93,Which buildings and structures are permitted to exceed the maximum heights?,"architectural features, eaves, elevator overruns, green roof elements, guardrails, landscaping, lighting rods, mechanical equipment and any associated enclosure structures, parapets, railings and dividers, roof drainage, screens, stairs, stair enclosures, trellises and window washing equipment",Toronto,the following building elements and structures
-94,What is the gross floor area requirement for a non-residential building?,"A maximum gross floor area of 3,006 square metres must be within a non-residential building;",Toronto,"3,006 square metres"
-95,"What is the max building height for Dwelling, Triplex?",11 m,St. Catharine,11 m
-96,What is the Rear Yard minimum yards for Private Road Development?,see Section 5.7,St. Catharine,Section 5.7
-97,"What is the Min. Density Per Hectare for Dwelling, Fourplex?",85 Units,St. Catharine,85 Units
-98,"What is the Min. Lot Frontage for Dwelling, Townhouse?",6 m,St. Catharine,6 m
-99,"What is the Min. Landscaped Open Space for Dwelling, Triplex?",25%,St. Catharine,25%.
-100,What is the Max. No. of Attached Dwelling Units allowed for Private Road Development?,8,St. Catharine,8. Min. Density Per Hectare is 85 Units
+,doc_id,question,ground_truth,municipality,finetune_answer,base_answer
+0,1,What is the maximum building height for accessory buildings?,4.0 m | 1 storey,Burnaby,4.0 m | 1 storey,4.0 m
+1,2,What is the minimum lot frontage requirements?,6 metres (19.7 ft.),Niagara Falls,6 metres (19.7 ft.).,6 metres (19.7 ft.).
+2,3,Where does a child care facility in the R1 district be located?,on a corner lot,Burnaby,on a corner lot,a corner lot
+3,4,"For lots in the R1 district on the Community Heritage Register, what is the minimum lot line setback for street yards?",2.0 m,Burnaby,2.0 m,2.0 m
+4,5,What is the minimum rear yard depth where any part of the building is used for residential purposes?,10 metres (33.0 ft.) plus any applicable distance specified in section 4.27.1,Niagara Falls,10 metres (33.0 ft.),10 metres
+5,6,What is the maximum lot coverage?,70%,Niagara Falls,70%.,70%.
+6,7,What is the maximum height of building or structure?,12 metres (40.0 ft.) subject to section 4.7,Niagara Falls,12 metres (40.0 ft.) subject to section 4.7,12 metres (40.0 ft.)
+7,8,What is the maximum floor area?,not specified,Niagara Falls,400 square metres,400 square metres
+8,9,What is the minimum width and area for outdoor amenity space for each primary dwelling unit?,An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m2,Burnaby,2.0 m and area of 10.0 m2,2.0 m and area of 10.0 m2
+9,10,What is the maximum building height for a sloping roof?,9.0 m (29.5 ft.),Burnaby,9.0 m (29.5 ft.),9.0 m (29.5 ft.)
+10,11,What is the minimum width of dwelling units?,5.03 m (16.5 ft.),Burnaby,5.03 m (16.5 ft.).,5.03 m (16.5 ft.).
+11,12,What is the maximum floor area ratio?,0.70,Burnaby,0.70,0.70
+12,13,What is the minimum front yard depth?,4.57 m (15 ft.),Burnaby,4.57 m (15 ft.),4.57 m (15 ft.)
+13,14,What is the minimum lot width?,20.12 m (66 ft.),Burnaby,20.12 m (66 ft.).,20.12 m (66 ft.).
+14,15,What is the minimum width of a lot side yard for a corner lot?,3.0 m (9.84 ft.),Burnaby,3.0 m (9.84 ft.).,3.0 m (9.84 ft.).
+15,16,What is the minimum depth of a rear yard?,4.57 m (15 ft.),Burnaby,4.57 m (15 ft.),4.57 m (15 ft.)
+16,17,What is the minimum width of a building?,30.48 m (100 ft.),Burnaby,30.48 m (100 ft.).,30.48 m (100 ft.).
+17,18,What are the requirements for off-street vehicle parking?,Off-street vehicle parking shall be provided and maintained in accordance with Schedule VIII of this Bylaw,Burnaby,shall be provided and maintained in accordance with Schedule VIII of this Bylaw,provided and maintained in accordance with Schedule VIII of this Bylaw
+18,19,What is the maximum building height?,37 m (121.39 ft.) nor 10 storeys,Burnaby,37 m (121.39 ft.) nor 10 storeys,37 m (121.39 ft.)
+19,20,What is the maximum floor area ratio?,5.00,Burnaby,5.00,5.00
+20,21,What is the maximum floor space ratio?,0.70,Vancouver,0.70,0.70
+21,22,What is the maximum floor space ratio?,4.00,Vancouver,4.00,4.00
+22,23,What is the maximum floor space ratio?,5.50,Vancouver,5.50,5.50
+23,24,What is the minimum site area?,460 m2,Vancouver,460 m2,460 m2
+24,25,What is the minimum site area for a corner site?,"1,348 m2",Vancouver,"1,348 m2","1,348 m2"
+25,26,What is the maximum building height?,11.0 metres,Calgary,11.0 metres measured from grade,11.0 metres
+26,27,What is the maximum building height?,12.0 metres,Calgary,12.0 metres,12.0 metres
+27,28,What is the maximum building height?,16.0 metres,Calgary,16.0 metres,16.0 metres
+28,29,What is the minimum number of motor vehicle parking stalls required?,calculated based on the sum of all units and suites at a rate of 1.0 stalls per unit or suite,Calgary,1.0 stalls per unit or suite,1.0 stalls per unit or suite
+29,30,What is the maximum density for parcels in the M-CG District?,111 units per hectare,Calgary,111 units per hectare,111 units per hectare
+30,31,What is the minimum lot size in square metres?,447 m2,City of Langley,"557 m2 [5,995.69 ft2],",557
+31,32,What is the maximum number of units for a Principal Building?,4; 6 if within 400 m of frequent bus stop,City of Langley,4,4
+32,33,What are the requirements for off-street vehicle parking?, in accordance with Section I.E. of this Bylaw,City of Langley,maintained in accordance with Section I.E. of this Bylaw,provided and maintained
+33,34,What are the rear and front setbacks for a principal building?,"Front is 7.5m [24.61 ft], Rear is 7.5m [24.61 ft]",City of Langley,"7.5m [24.61 ft],","7.5m [24.61 ft],"
+34,35,What is the minimum lot size?,"930 m2 [10,010.76 ft2]",City of Langley,"930 m2 [10,010.76 ft2],",930 m2
+35,36,What is the maximum number of units for a Principal Building?,4; 6 if within 400 m of frequent bus stop,City of Langley,4,4
+36,37,What are the landscaping requirements for this zone?,Not Applicable,City of Langley,Not Applicable to this Zone,Not Applicable to this Zone
+37,38,What is the interior setback for a principal building?,3.0m [9.84 ft],City of Langley,"3.0m [9.84 ft],",3.0m
+38,39,Where are the general provisions set out in this Bylaw?,Section I.D.,City of Langley,Section I.D.,Section I.D.
+39,40,What is the minimum lot size?,"222 m2 [2,389.66 ft2]",City of Langley,"222 m2 [2,389.66 ft2],",222 m2
+40,41,What is the minimum lot frontage?,"50 feet except when a lot faces on the outer side of a curve in the street, in which case the min. frontage may be reduced to 30 feet",Halifax,50 feet,50 feet
+41,42,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet","6,000 square feet"
+42,43,What is the minimum lot coverage?,35 percent,Halifax,maximum 35 percent,maximum 35 percent
+43,44,What is the maximum height?,35 feet,Halifax,35 feet,35 feet
+44,45,What are the requirements for a building on a corner lot?,it shall be at least 10 feet from the flanking street line abutting such lot,Halifax,at least 10 feet from the flanking street line abutting such lot,at least 10 feet from the flanking street line abutting such lot
+45,46,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet","5,000 square feet"
+46,47,What is the maximum height?,35 feet,Halifax,35 feet,35 feet
+47,48,What is the minimum lot frontage for a semi-detached dweling?,25 feet,Halifax,25 feet,25 feet
+48,49,What is the maximum lot coverage for a semi-detached dwelling?,not greater than 35 percent,Halifax,not greater than 35 percent,35 percent
+49,50,What is the minimum lot area?,"5,000 square feet",Halifax,"5,000 square feet","5,000 square feet"
+50,51,What are the uses permitted?,(a) Single Family Dwelling (b) Small-Scale Multi-Unit Housing (c) Boarding (d) Home Occupation (e) Accessory Buildings and Structures (f) Accessory Produce Sales,Saanich,Single Family Dwelling (b) Small-Scale Multi-Unit Housing,Single Family Dwelling (b) Small-Scale Multi-Unit Housing
+51,52,What are the boarding requirements?,There shall be not more than two boarders in a dwelling unit,Saanich,There shall be not more than two boarders in a dwelling unit,There shall be not more than two boarders in a dwelling unit
+52,53,What is the maximum lot coverage for all buildings?,40%,Saanich,40% of the lot area,40% of the lot area
+53,54,For buildings and structures for single family dwelling what are the front lot line setback requirements for lots having an area exceeding 2000 m2?,15.0 m (49.2 ft),Saanich,15.0 m (49.2 ft) from a front lot line,15.0 m (49.2 ft)
+54,55,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line,10.5 m (34.5 ft)
+55,56,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,3.5 m (11.5 ft),Saanich,3.5 m (11.5 ft),3.5 m
+56,57,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade",7.5 m (24.6 ft)
+57,58,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line,0.50
+58,59,What is the maximum gross floor area for buildings and structures for single family dwelling?,667 m2 (7179 ft2),Saanich,"667 m2 (7179 ft2),",7.5 m
+59,60,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,shall be regulated in accordance with Schedule “G”.,lots less than 446 m2 (4800 ft2)
+60,61,What are the minimum lot size requirements?,"No land shall be subdivided into lots having a width or an area less than: (a) Standard Lot: width 25 m (82.0 ft), area 1450 m2 (15608 ft2) (b) Panhandle Lot: width 30 m (98.4 ft), area excluding access strip 1750 m2 (18837 ft2)",Saanich,No land shall be subdivided into lots having a width or an area less,No land shall be subdivided into lots having a width or an area less
+61,62,What are the uses permitted?,(a) Single Family Dwelling (b) Small-Scale Multi-Unit Housing (c) Boarding in Single Family Dwelling (d) Home Occupation (e) Accessory Buildings and Structures (f) Accessory Produce Sales,Saanich,Single Family Dwelling (b) Small-Scale Multi-Unit Housing,Single Family Dwelling (b) Small-Scale Multi-Unit Housing
+62,63,What are the boarding requirements?,There shall be not more than two boarders in a single family dwelling,Saanich,There shall be not more than two boarders in a single family dwelling,There shall be not more than two boarders in a single family dwelling
+63,64,What is the maximum lot coverage for all buildings?,30%,Saanich,30% of the lot area,30% of the lot area
+64,65,For buildings and structures for single family dwelling what are the front lot line setback requirements?,7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft) from a front lot line,7.5 m
+65,66,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line,10.5 m
+66,67,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,4.5 m (14.7 ft),Saanich,4.5 m (14.7 ft),4.5 m (14.7 ft)
+67,68,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade",7.5 m (24.6 ft
+68,69,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line,0.50
+69,70,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,Accessory Buildings and Structures,sum of both side yards is not less than 30% of the lot width
+70,71,For accessory buildings and structures what are the front lot line setback requirements?,7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft) from a front lot line,7.5 m (24.6 ft)
+71,72,For accessory buildings and structures what are the rear lot line setback requirements?,1.5 m (4.9 ft),Saanich,1.5 m (4.9 ft) from a rear lot line,1.5 m (4.9 ft)
+72,73,For accessory buildings and structures what are the interior side lot line setback requirements?,3.0 m (9.8 ft),Saanich,7.5 m (24.6 ft) from a front lot line,3.0 m
+73,74,For accessory buildings and structures what are the exterior side lot line setback requirements?,4.5 m (14.7 ft),Saanich,7.5 m (24.6 ft) from a front lot line,4.5 m
+74,75,For accessory buildings and structures what is the maximum lot coverage?,10%,Saanich,10%.,10%.
+75,76,What is the minimum lot size for panhandle lots?,not permitted,Saanich,not permitted,not permitted
+76,77,What are the uses permitted?,"a) Single Family Dwelling (b) Apartment (c) Attached Housing (d) Home Occupation Office and Daycare, Child (e) Accessory Buildings and Structures (f) Accessory Produce Sales",Saanich,Single Family Dwelling (b) Apartment (c) Attached Housing,Single Family Dwelling (b) Apartment (c) Attached Housing
+77,78,What is the maximum lot coverage for all buildings and structures?,35%,Saanich,35 % of the lot area,35 % of the lot area
+78,79,What is the maximum density?,one dwelling unit per 500 m2 (5382 ft2) of lot area,Saanich,dwelling unit per 500 m2 (5382 ft2) of lot area,one dwelling unit per 500 m2
+79,80,"For buildings and structures for single family dwellings, attached housing and apartment what are the lot line setbacks for any lot line abutting a street?",7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft),7.5 m (24.6 ft)
+80,81,What is the lawful building setback for a front lot line?,the minimum front yard setback for that lawfully existing building or structure,Toronto,the minimum front yard setback for that lawfully existing building or structure,minimum front yard setback
+81,82,What is the lawful building setback for a rear lot line?,the minimum rear yard setback for that lawfully existing building or structure,Toronto,the minimum rear yard setback for that lawfully existing building or structure,the minimum rear yard setback
+82,83,What is the minimum front lot line requirements for a residential building?,"In the Residential Apartment Zone category, a residential building may not be erected on a lot that does not have a front lot line of at least 3.5 metres, unless the lot: (A) abuts a lane with a minimum width of 6.0 metres; and (B) has a minimum of 3.5 metres of the rear lot line abutting the lane",Toronto,at least 3.5 metres,3.5 metres
+83,84,What is the permitted lot frontage for lawfully existing lots?,"In the Residential Apartment Zone category, if the lawful lot frontage of a lawfully existing lot is less than the required minimum lot frontage by this By-law, that lawful lot frontage is the minimum lot frontage for that lawfully existing lot.",Toronto,the minimum lot frontage,minimum
+84,85,How is the height of the building determined?,the height of a building is the distance between the established grade and the elevation of the highest point of the building,Toronto,distance between the established grade and the elevation of the highest point of the building,distance between the established grade and the elevation of the highest point of the building
+85,86,What building use areas is the gross floor area of the apartment building reduced by?,"(A) parking, loading and bicycle parking below established grade; (B) required loading spaces and required bicycle parking spaces at or above established grade; (C) storage rooms, washrooms, electrical, utility, mechanical and ventilation rooms in the basement; (D) shower and change facilities and bicycle maintenance facilities required by this By-law for required bicycle parking spaces; [ By-law: 839-2022 ] (E) indoor amenity space required by this By-law; (F) elevator shafts; (G) garbage shafts; (H) mechanical penthouse; and (I) exit stairwells in the building",Toronto,"(A) parking, loading and bicycle parking below established grade","parking, loading and bicycle parking below established grade"
+86,87,How is the floor space index calculated for apartment buildings?,"the result of the gross floor area, minus the areas of an apartment building listed in regulation 15.5.40.40(1), divided by the area of the lot",Toronto,the gross floor area of a building divided by the area of the lot,divided by the area of the lot
+87,88,What are the minimum lot frontage requirements in the RA zone?,"(A) if a zone label includes the letter ""f"", on the Zoning By-law Map, the numerical value following the letter ""f"" is the required minimum lot frontage, in metres; and (B) if the zone label on the Zoning By-law Map does not include an ""f"" value on the Zoning By-law Map, the required minimum lot frontage is 24.0 metres",Toronto,24.0 metres,24.0 metres
+88,89,What are the maximum lot coverage requirements in the RA zone?,"(A) if a lot is in an area with a numerical value on the Lot Coverage Overlay Map, that numerical value is the permitted maximum lot coverage, as a percentage of the lot area; and (B) if a lot is not in an area with a numerical value on the Lot Coverage Overlay Map, no lot coverage applies.",Toronto,as a percentage of the lot area,(A) if a lot is in an area with a numerical value
+89,90,"Where parking is underground or at the rear, what is the minimum front yard setback?",3.0m or the average of the existing front yard setbacks of buildings on either side of the subject property,Toronto,the applicable zoning by-law,3.0m
+90,91,What is the minimum rear yard setback?,7.5m rear yard setback from the rear property line. A private lane or driveway may be included for the purposes of establishing the setback and angular plane,Toronto,7.5m,7.5m
+91,92,What is the site specific provision for the height of a building or structure?,"The height of a building or structure, as measured from 89.90 metres Canadian Geodetic Datum, must not exceed the height in metres specified by the numbers following the symbol H as shown on Diagram 3 attached to this By-law",Toronto,must not exceed the height in metres specified by the numbers following the symbol H,must not exceed the height in metres specified by the numbers following the symbol H
+92,93,Which buildings and structures are permitted to exceed the maximum heights?,"architectural features, eaves, elevator overruns, green roof elements, guardrails, landscaping, lighting rods, mechanical equipment and any associated enclosure structures, parapets, railings and dividers, roof drainage, screens, stairs, stair enclosures, trellises and window washing equipment",Toronto,the following building elements and structures,the following building elements
+93,94,What is the gross floor area requirement for a non-residential building?,"A maximum gross floor area of 3,006 square metres must be within a non-residential building;",Toronto,"3,006 square metres","3,006 square metres"
+94,95,"What is the max building height for Dwelling, Triplex?",11 m,St. Catharine,11 m,11 m
+95,96,What is the Rear Yard minimum yards for Private Road Development?,see Section 5.7,St. Catharine,Section 5.7,Section 5.7
+96,97,"What is the Min. Density Per Hectare for Dwelling, Fourplex?",85 Units,St. Catharine,85 Units,85 Units
+97,98,"What is the Min. Lot Frontage for Dwelling, Townhouse?",6 m,St. Catharine,6 m,6 m
+98,99,"What is the Min. Landscaped Open Space for Dwelling, Triplex?",25%,St. Catharine,25%.,25%.
+99,100,What is the Max. No. of Attached Dwelling Units allowed for Private Road Development?,8,St. Catharine,8. Min. Density Per Hectare is 85 Units,6
