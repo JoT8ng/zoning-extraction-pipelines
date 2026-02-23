@@ -10,7 +10,7 @@
 8,9,What is the minimum width and area for outdoor amenity space for each primary dwelling unit?,An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m2,Burnaby,2.0 m and area of 10.0 m2,2.0 m and area of 10.0 m2
 9,10,What is the maximum building height for a sloping roof?,9.0 m (29.5 ft.),Burnaby,9.0 m (29.5 ft.),9.0 m (29.5 ft.)
 10,11,What is the minimum width of dwelling units?,5.03 m (16.5 ft.),Burnaby,5.03 m (16.5 ft.).,5.03 m (16.5 ft.).
-11,12,What is the maximum floor area ratio?,0.70,Burnaby,0.70,0.70
+11,12,What is the maximum floor area ratio?,0.7,Burnaby,0.7,0.7
 12,13,What is the minimum front yard depth?,4.57 m (15 ft.),Burnaby,4.57 m (15 ft.),4.57 m (15 ft.)
 13,14,What is the minimum lot width?,20.12 m (66 ft.),Burnaby,20.12 m (66 ft.).,20.12 m (66 ft.).
 14,15,What is the minimum width of a lot side yard for a corner lot?,3.0 m (9.84 ft.),Burnaby,3.0 m (9.84 ft.).,3.0 m (9.84 ft.).
@@ -18,10 +18,10 @@
 16,17,What is the minimum width of a building?,30.48 m (100 ft.),Burnaby,30.48 m (100 ft.).,30.48 m (100 ft.).
 17,18,What are the requirements for off-street vehicle parking?,Off-street vehicle parking shall be provided and maintained in accordance with Schedule VIII of this Bylaw,Burnaby,shall be provided and maintained in accordance with Schedule VIII of this Bylaw,provided and maintained in accordance with Schedule VIII of this Bylaw
 18,19,What is the maximum building height?,37 m (121.39 ft.) nor 10 storeys,Burnaby,37 m (121.39 ft.) nor 10 storeys,37 m (121.39 ft.)
-19,20,What is the maximum floor area ratio?,5.00,Burnaby,5.00,5.00
-20,21,What is the maximum floor space ratio?,0.70,Vancouver,0.70,0.70
-21,22,What is the maximum floor space ratio?,4.00,Vancouver,4.00,4.00
-22,23,What is the maximum floor space ratio?,5.50,Vancouver,5.50,5.50
+19,20,What is the maximum floor area ratio?,5,Burnaby,5,5
+20,21,What is the maximum floor space ratio?,0.7,Vancouver,0.7,0.7
+21,22,What is the maximum floor space ratio?,4,Vancouver,4,4
+22,23,What is the maximum floor space ratio?,5.5,Vancouver,5.5,5.5
 23,24,What is the minimum site area?,460 m2,Vancouver,460 m2,460 m2
 24,25,What is the minimum site area for a corner site?,"1,348 m2",Vancouver,"1,348 m2","1,348 m2"
 25,26,What is the maximum building height?,11.0 metres,Calgary,11.0 metres measured from grade,11.0 metres
@@ -56,7 +56,7 @@
 54,55,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line,10.5 m (34.5 ft)
 55,56,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,3.5 m (11.5 ft),Saanich,3.5 m (11.5 ft),3.5 m
 56,57,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade",7.5 m (24.6 ft)
-57,58,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line,0.50
+57,58,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.5,Saanich,7.5 m (24.6 ft) from a front lot line,0.5
 58,59,What is the maximum gross floor area for buildings and structures for single family dwelling?,667 m2 (7179 ft2),Saanich,"667 m2 (7179 ft2),",7.5 m
 59,60,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,shall be regulated in accordance with Schedule “G”.,lots less than 446 m2 (4800 ft2)
 60,61,What are the minimum lot size requirements?,"No land shall be subdivided into lots having a width or an area less than: (a) Standard Lot: width 25 m (82.0 ft), area 1450 m2 (15608 ft2) (b) Panhandle Lot: width 30 m (98.4 ft), area excluding access strip 1750 m2 (18837 ft2)",Saanich,No land shall be subdivided into lots having a width or an area less,No land shall be subdivided into lots having a width or an area less
@@ -67,7 +67,7 @@
 65,66,For buildings and structures for single family dwelling what are the rear lot line setback requirements?,10.5 m (34.5 ft),Saanich,10.5 m (34.5 ft) from a rear lot line,10.5 m
 66,67,For buildings and structures for single family dwelling what are the exterior side lot line setback requirements?,4.5 m (14.7 ft),Saanich,4.5 m (14.7 ft),4.5 m (14.7 ft)
 67,68,What are the maximum height requirements for buildings and structures for single family dwelling?,"Shall not exceed a height of: 7.5 m (24.6 ft), as measured from Grade; for those buildings and structures having or incorporating flat roofs or roofs with a pitch less than 3:12, the maximum height of these roofs shall not exceed 6.5 m (21.3 ft) as measured from grade",Saanich,"7.5 m (24.6 ft), as measured from Grade",7.5 m (24.6 ft
-68,69,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.50,Saanich,7.5 m (24.6 ft) from a front lot line,0.50
+68,69,What is the maximum floor space ratio for buildings and structures for single family dwelling?,0.5,Saanich,7.5 m (24.6 ft) from a front lot line,0.5
 69,70,What are the requirements for Houseplex Buildings?,Houseplexes built under Small-Scale Multi-Unit Housing use shall be regulated in accordance with Schedule “G”,Saanich,Accessory Buildings and Structures,sum of both side yards is not less than 30% of the lot width
 70,71,For accessory buildings and structures what are the front lot line setback requirements?,7.5 m (24.6 ft),Saanich,7.5 m (24.6 ft) from a front lot line,7.5 m (24.6 ft)
 71,72,For accessory buildings and structures what are the rear lot line setback requirements?,1.5 m (4.9 ft),Saanich,1.5 m (4.9 ft) from a rear lot line,1.5 m (4.9 ft)
