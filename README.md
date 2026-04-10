@@ -72,12 +72,12 @@ zoning-extraction-pipelines
 |   |___ requirements.txt
 |___llm_api_pipeline/
 |   |___ src/
-    |    |___ README.md
-    |    |___ bylawextract.py
-    |    |___ llmapi.py
-    |    |___ parsing.py
-    |    |___ example_zoningbylaw_text.pdf
-    |    |___ example_zoning.geojson
+|   |    |___ README.md
+|   |    |___ bylawextract.py
+|   |    |___ llmapi.py
+|   |    |___ parsing.py
+|   |    |___ example_zoningbylaw_text.pdf
+|   |    |___ example_zoning.geojson
 |   |___ requirements.txt
 |___zeroshot_qa/
 |   |___ README.md
