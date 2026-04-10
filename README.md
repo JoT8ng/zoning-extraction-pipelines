@@ -13,10 +13,11 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
 * AI model architecture choice impacts accuracy, performance, and resources
 * The pros and cons of different model architectures are highlighted. For example:
-    * Short context models: faster, cheaper, but need chunking
-    * Long context models: handle more context/longer texts, slower/more expensive
-    * NLP models: no hallucinations, faster, lighter, trained on smaller datasets for highly specialized tasks
-    * Gen AI LLMs: hallucinations, resource intensive, trained on larger datasets for more general purpose use
+    * Short context models: Faster, cheaper, but data needs to be split into chunks to be fed into the model.
+    * Long context models: Handles more context/longer texts (great for legal documents like Zoning By-laws), slower and more expensive
+    * Encoder-only models: Best for understanding and extracting information (for example: BERT, Bidirectional Encoder Representations from Transformers). No hallucinations, faster, lighter, trained on smaller datasets for highly specialized tasks. These models have no generative component. 
+    * Decoder-only models: Best for generating text (for example: GPT, Generative Pre-Trained Transformer). Can hallucinate, more resource-intensive, trained on larger datasets for more general-purpose use. 
+    * Encoder-decoder models: Good for tasks like translation or summarization. 
 * Answers the questions: Is it worth integrating AI to automate workflows within this domain? How accurate can AI models be in handling this type of legal information where high accuracy is desirable?
 
 ### Pipelines Implemented
@@ -34,11 +35,12 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
     This pipeline explores extracting the zoning information by first extracting and parsing the text as markdown from the by-law PDFs, then sending a query to the LLM API with the extracted text. The LLM responds with the zoning information and the response is processed and exported into CSV format and joined with a zoning GeoJSON dataset.
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/README.md)
+
     [Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/llm_api_pipeline/src/evaluation/llm_api_evaluation.ipynb)
 
 3. **Zero shot QA experiments** (folder name: "zeroshot_qa")
 
-    These experiments aim to test out and evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa NLP question answering models to extract information from zoning by-laws.
+    These experiments aim to evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa NLP question answering models to extract information from zoning by-laws.
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/README.md)
 
@@ -46,7 +48,13 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
 4. **Fine-Tuning Experiments**
 
-    Work in progress...
+    These experiments aim to fine-tune a pre-trained RoBERTa QA model to increase its accuracy in extracting information from Zoning By-laws.
+
+    [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/README.md)
+
+    [Link to Training Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_experiment.ipynb)
+
+    [Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_evaluation.ipynb)
 
 ## Folder Structure
 Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 
@@ -79,6 +87,16 @@ zoning-extraction-pipelines
 |   |___ R1Small-Scale-Multi-Unit-Housing-District.txt
 |   |___ ZoningDatasets.xlsx
 |   |___ ZeroshotDataset2.csv
+|   |___ requirements.txt
+|___finetuning_pipeline/
+|   |___ README.md
+|   |___ finetuning_qa_experiment.ipynb
+|   |___ finetuning_qa_evaluation.ipynb
+|   |___ EvaluationDataset.csv
+|   |___ TrainingDataset.csv
+|   |___ ValidationDataset.csv
+|   |___ roberta-zoning-qa-results-1.csv
+|   |___ roberta-zoning-qa-results-1-human-eval.csv
 |   |___ requirements.txt
 ```
 

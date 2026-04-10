@@ -11,6 +11,50 @@ This project is exploratory and aims to experiment with different transformer mo
 ## Folder Structure
 Required project/repository folder structure in order for the script to run.
 
+```
+|___finetuning_pipeline/
+|   |___ README.md
+|   |___ finetuning_qa_experiment.ipynb
+|   |___ finetuning_qa_evaluation.ipynb
+|   |___ EvaluationDataset.csv
+|   |___ TrainingDataset.csv
+|   |___ ValidationDataset.csv
+|   |___ roberta-zoning-qa-results-1.csv
+|   |___ roberta-zoning-qa-results-1-human-eval.csv
+|   |___ requirements.txt
+```
+
 ## Dependencies
+Refer to requirements.txt for all dependencies and versions
+* Hugging Face Transformers Library Dataset and Evaluate Functions
+* Pandas
+* Jupyter Notebook
+* matplotlib
 
 ## Getting Started
+Console commands assume that you are using a powershell terminal on windows or VSCode.
+
+Set up a Python virtual environment. "myenv" is the random name given to the virtual environment in this example. Change it to a name of your choice.
+```
+python -m venv myenv
+```
+Activate Python virtual environment
+```
+myenv/scripts/activate
+```
+Install dependencies
+```
+ pip install -r requirements.txt
+ ```
+or create requirements.txt file
+```
+pip freeze > requirements.txt
+```
+Register your virtual environment as a Jupyter kernel
+```
+python -m ipykernel install --user --name=myenv --display-name "myenv zeroshot qa experiments"
+```
+Deactivate virtual environment
+```
+deactivate
+```
