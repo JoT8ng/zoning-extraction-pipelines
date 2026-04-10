@@ -1,6 +1,6 @@
 # Zoning Extraction Pipelines
 
-**This repository contains multiple approaches and experiments to extract zoning data/information from unstructured text by-law PDFS. The aim for these tools is to automate zoning data extraction for GIS workflows. The projects and experiments in this repository alo aim to evaluate the accuracy of different AI models and architectures in extracting information from zoning by-laws with data context lengths matched to model capabilities.**
+**This repository contains multiple approaches and experiments to extract zoning data/information from unstructured text by-law PDFS. The aim for these tools is to automate zoning data extraction for GIS workflows. The projects and experiments in this repository also aim to evaluate the accuracy of different AI models and architectures in extracting information from zoning by-laws with data context lengths matched to model capabilities.**
 
 The projects in this repository are exploratory, investigative, and aims to learn different Python libraries, workflows, and to use the Hugging Face Transformers Library.
 
@@ -38,7 +38,7 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
 3. **Zero shot QA experiments** (folder name: "zeroshot_qa")
 
-    These experiements aims to test out and evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa NLP question answering models to extract information from zoning by-laws.
+    These experiments aim to test out and evaluate the accuracy of DistilBERT, LEGAL-BERT, and RoBERTa NLP question answering models to extract information from zoning by-laws.
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/zeroshot_qa/README.md)
 
@@ -82,8 +82,8 @@ zoning-extraction-pipelines
 |   |___ requirements.txt
 ```
 
-## Dependancies
-Each pipeline has its own requirements.txt file. Refer to requirements.txt for all dependancies and versions.
+## Dependencies
+Each pipeline has its own requirements.txt file. Refer to requirements.txt for all dependencies and versions.
 
 ## Getting started
 Console commands assume that you are using a powershell terminal on windows or VSCode.
@@ -96,7 +96,7 @@ Activate Python virtual environment
 ```
 myenv/scripts/activate
 ```
-Install dependancies
+Install dependencies
 ```
  pip install -r requirements.txt
  ```

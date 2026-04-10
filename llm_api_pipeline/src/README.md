@@ -24,17 +24,17 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
 The first part of this code calls the [Zoning PDF Text Extraction and Parsing Functions](https://github.com/JoT8ng/zoning-extraction-pipelines/tree/main/common_pdf_parsing) which handles PDF text extraction and parsing. Refer to the documentation and Jupyter Notebook for further explanation of how the function works.
 
-To improve accuracy, the script requires an existing zoning geoJSON spatial dataset from the jurisdiction the zoning by-law is from. The script requires the user to declare the fieldname in the geoJSON that has all the zoning category titles. While calling the different parsing functions to parse the zoning PDF for zoning category titles and split it into sections, the script checks if the zoning categories extracted match the categories in the geoJSON using fuzzy matching.
+To improve accuracy, the script requires an existing zoning GeoJSON spatial dataset from the jurisdiction the zoning by-law is from. The script requires the user to declare the fieldname in the GeoJSON that has all the zoning category titles. While calling the different parsing functions to parse the zoning PDF for zoning category titles and split it into sections, the script checks if the zoning categories extracted match the categories in the GeoJSON using fuzzy matching.
 
-The title/zoning category and its section text (contained in a python dictionary), extracted by the [Zoning PDF Text Extraction and Parsing Funcions](https://github.com/JoT8ng/zoning-extraction-pipelines/tree/main/common_pdf_parsing), is placed into a prompt that is used to make a query to the LLM (Claude 3.5 Sonnet api via Amazon Bedrock). The dictionary containing all the extracted and parsed infor is only sent to the LLM API if it has a match with the titles in the geoJSON.
+The title/zoning category and its section text (contained in a python dictionary), extracted by the [Zoning PDF Text Extraction and Parsing Funcions](https://github.com/JoT8ng/zoning-extraction-pipelines/tree/main/common_pdf_parsing), is placed into a prompt that is used to make a query to the LLM (Claude 3.5 Sonnet api via Amazon Bedrock). The dictionary containing all the extracted and parsed infor is only sent to the LLM API if it has a match with the titles in the GeoJSON.
 
-The LLM's output is stored in memory into another python dictionary and also output as text files in markdown syntax for users to view. The output is then processed and joined with geospatial geoJSON zoning datasets and output as a CSV.
+The LLM's output is stored in memory into another python dictionary and also output as text files in markdown syntax for users to view. The output is then processed and joined with geospatial GeoJSON zoning datasets and output as a CSV.
 
-This pipeline requires the user to review all the LLM outputs in the CSV and geoJSON, in case the response contains hallucinations. To facilitate this review process, the LLM prompts are very specific. If the LLM cannot find the relevant zoning information (maximum building height or lot coverage etc.) it will respond with "invalid" and a reason for why it cannot find the information. This flags certain rows of data for the user to check.
+This pipeline requires the user to review all the LLM outputs in the CSV and GeoJSON, in case the response contains hallucinations. To facilitate this review process, the LLM prompts are very specific. If the LLM cannot find the relevant zoning information (maximum building height or lot coverage etc.) it will respond with "invalid" and a reason for why it cannot find the information. This flags certain rows of data for the user to check.
 
 ## Example Inputs and Outputs
 
-Example geoJSON attribute table with zoning category field name.
+Example GeoJSON attribute table with zoning category field name.
 
 ![Geojson In](images/geojsonin.jpg)
 
@@ -55,7 +55,7 @@ Anthropic Claude was the generative LLM model chosen based on project requiremen
 
 ## Closing Thoughts
 
-This pipeline offers a powerful and efficient way to streamline zoning data extraction workflows, enabling users to process large, complex by-law PDFs and quickly surface relevant zoning details. By combining PDF parsing, fuzzy matching against authoritative geoJSON datasets, and targeted LLM queries, it reduces the manual effort required to locate and structure zoning information.
+This pipeline offers a powerful and efficient way to streamline zoning data extraction workflows, enabling users to process large, complex by-law PDFs and quickly surface relevant zoning details. By combining PDF parsing, fuzzy matching against authoritative GeoJSON datasets, and targeted LLM queries, it reduces the manual effort required to locate and structure zoning information.
 
 However, all text generating and question answering LLMs, like Anthropic Claude, have a tendency to hallucinate and misinterpret text.  While the pipeline incorporates safeguards—like strict prompt design, “invalid” flags for missing data, and integration with known zoning categories—outputs cannot be guaranteed to be 100% accurate. All outputs must be validated by the user, reviewing flagged rows and cross-checking extracted values against authoritative sources, to ensure the final dataset can be used for reliable decision making.
 
@@ -68,7 +68,7 @@ However, all text generating and question answering LLMs, like Anthropic Claude,
 ## Folder Structure
 Required project/repository folder structure in order for the script to run.
 
-This pipeline script requires users to have an existing zoning by-law PDF and zoning geospatial geoJSON dataset to run.
+This pipeline script requires users to have an existing zoning by-law PDF and zoning geospatial GeoJSON dataset to run.
 ```
 llm_api_pipeline
 |   README.md

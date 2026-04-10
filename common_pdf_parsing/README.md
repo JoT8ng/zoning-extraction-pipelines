@@ -3,7 +3,7 @@
 These functions extract the text from the zoning by-law and parses it so that it can be used in other pipelines. Can also be used on its own to split up zoning by-law texts to make them easier to read and search for information.
 
 ## How it Works
-The code opens a zoning by-law pdf document and uses the pymupdf4llm library to extract the text into markdown syntax. Markdown syntax is used because LLMs are better able to understand text and documents in markdown. Markdown provides heiarchy to text documents, which helps LLMs understand the pdf document structure.
+The code opens a zoning by-law pdf document and uses the pymupdf4llm library to extract the text into markdown syntax. Markdown syntax is used because LLMs are better able to understand text and documents in markdown. Markdown provides hierarchy to text documents, which helps LLMs understand the pdf document structure.
 
 As zoning by-laws from different municipalities vary greatly in formatting and complexity, a general pattern in formatting needs to be identified to design an algorithm that can successfully extract data from as many by-law formats as possible.
 
@@ -27,8 +27,8 @@ common_pdf_parsing
 |___zoning-out
 ```
 
-## Dependancies
-Refer to requirements.txt for all dependancies and versions
+## Dependencies
+Refer to requirements.txt for all dependencies and versions
 * PyMuPDF 1.25.2
 * Python 3.13.0
 * pymupdf4llm 0.0.17
@@ -44,7 +44,7 @@ Activate Python virtual environment
 ```
 myenv/scripts/activate
 ```
-Install dependancies
+Install dependencies
 ```
  pip install -r requirements.txt
  ```
