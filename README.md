@@ -52,9 +52,13 @@ They are often stored as long, unstructured PDF legal documents and it's difficu
 
     [Link to README.md](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/README.md)
 
-    [Link to Training Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_experiment.ipynb)
+    [Experiment 1: Link to Training Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_experiment.ipynb)
 
-    [Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_evaluation.ipynb)
+    [Experiment 1: Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_evaluation.ipynb)
+
+    [Experiment 2: Link to Training Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_experiment2.ipynb)
+
+    [Experiment 2: Link to Evaluation Notebook](https://github.com/JoT8ng/zoning-extraction-pipelines/blob/main/finetuning_pipeline/finetuning_qa_evaluation2.ipynb)
 
 ## Folder Structure
 Each pipeline or function class has its own project folder. For example: the functions to extract unstructured text from zoning PDFs and parse them is in the folder called "common_pdf_parsing". 
@@ -92,11 +96,15 @@ zoning-extraction-pipelines
 |   |___ README.md
 |   |___ finetuning_qa_experiment.ipynb
 |   |___ finetuning_qa_evaluation.ipynb
+|   |___ finetuning_qa_experiment2.ipynb
+|   |___ finetuning_qa_evaluation2.ipynb
 |   |___ EvaluationDataset.csv
 |   |___ TrainingDataset.csv
 |   |___ ValidationDataset.csv
 |   |___ roberta-zoning-qa-results-1.csv
 |   |___ roberta-zoning-qa-results-1-human-eval.csv
+|   |___ roberta-zoning-qa-results-2.csv
+|   |___ roberta-zoning-qa-results-2-human-eval.csv
 |   |___ requirements.txt
 ```
 

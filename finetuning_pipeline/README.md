@@ -16,11 +16,15 @@ Required project/repository folder structure in order for the script to run.
 |   |___ README.md
 |   |___ finetuning_qa_experiment.ipynb
 |   |___ finetuning_qa_evaluation.ipynb
+|   |___ finetuning_qa_experiment2.ipynb
+|   |___ finetuning_qa_evaluation2.ipynb
 |   |___ EvaluationDataset.csv
 |   |___ TrainingDataset.csv
 |   |___ ValidationDataset.csv
 |   |___ roberta-zoning-qa-results-1.csv
 |   |___ roberta-zoning-qa-results-1-human-eval.csv
+|   |___ roberta-zoning-qa-results-2.csv
+|   |___ roberta-zoning-qa-results-2-human-eval.csv
 |   |___ requirements.txt
 ```
 
